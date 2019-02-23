@@ -5,7 +5,7 @@ data: 2019-03-03
 autore: 'tizio'
 link-autore: ''
 tags: ['venezia', 'residenti', 'ex-scalera']
-header-image: "https://via.placeholder.com/2000x600.png?text=Qualcosa+di+strafico"
+header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
 excerpt_separator: <!--more-->
 
 ---

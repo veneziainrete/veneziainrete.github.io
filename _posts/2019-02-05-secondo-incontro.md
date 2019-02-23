@@ -4,7 +4,7 @@ title: 'Secondo incontro'
 data: 2019-02-05
 autore: 'caio'
 link-autore: ''
-header-image: "https://via.placeholder.com/2000x600.png?text=Qualcosa+di+strafico"
+header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
 tags: ['venezia', 'residenti', 'elaboratorio']
 excerpt_separator: <!--more-->
 ---

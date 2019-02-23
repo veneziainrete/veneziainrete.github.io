@@ -5,7 +5,7 @@ data: 2018-12-06
 autore: 'sempronio'
 link-autore: ''
 tags: ['venezia', 'residenti', 'laboratorio']
-header-image: "https://via.placeholder.com/2000x600.png?text=Qualcosa+di+strafico"
+header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
 excerpt_separator: <!--more-->
 ---
 

@@ -1,0 +1,415 @@
+html {
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	color: #000000ff;
+	}
+
+header { 
+	margin-top:1em;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align: center;
+	clear: both;
+}
+
+body { 
+	height: 100%;
+	padding:1em;
+	line-height: 1.75;
+	font-weight: 400;
+	min-height: 100vh;
+	overflow-x: hidden;
+	}
+
+.content {
+	text-align: justify;
+	margin-bottom: 50px
+}
+
+main {
+	margin:0 auto;
+	max-width:40em;
+	min-height: 100%
+	}
+
+a {
+	text-decoration:underline;
+	color: inherit;
+	}
+
+a:hover {
+	color:#DA304C;
+	}
+
+b,strong {
+	font-weight: 900;
+}
+h1 {
+	margin:1.414em 0 .5em;
+	line-height:1.2;
+	margin-top:0;
+	font-size:2.441em;
+	letter-spacing:.1em;
+	font-family: 'Oswald', serif;
+	font-weight: 700;
+	padding-bottom: 2em
+	}
+
+
+h1,h2,h3,h4 {
+	text-align: left;
+}
+
+div.pitch {
+	max-width: 70%;
+	margin:0 auto;
+	font-size: 2em;
+	text-align: left;
+	padding-bottom: 2em;
+	border-bottom: 5px solid;
+
+}
+
+div.home-info {
+	max-width: 70%;
+	margin:0 auto;
+	font-size: 1em;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-top: 3em;
+}
+
+h1.pitch {
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+	font-family: 'Arapey', serif;
+	word-wrap: normal;
+	-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;}
+
+
+
+.icons {
+	font-size:30px;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 10px 5px 10px;
+	display: inline-block;
+}
+}
+small {
+	font-size:.8em
+	}
+
+main,section {
+	padding-top:1em;
+	padding-bottom:1em
+	}
+
+nav {
+	font-size:14px;
+	display: inline-block;
+	}
+
+nav a {
+	padding:10px;
+	text-decoration: none;
+	}
+
+nav a:hover {
+	background-color: #DA304C;
+	color: white;
+}
+
+
+
+.dropbtn {
+    background-color: inherit;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    border: none; 
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#menu-items a.current {
+	font-weight: 700;
+
+}
+
+.sub-dropbtn {
+	text-transform: none;
+	font-size: 12px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    max-height: 400px;
+    z-index: 1;
+    overflow: auto;
+}
+
+.dropdown-content a {
+    color: inherit;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    display: block;
+    font-weight: 200;
+    
+}
+
+.dropdown-content a:hover {background-color: #DA304C; color: white}
+
+
+.dropdown:hover .dropdown-content {display: block}
+
+.dropbtn:hover {background-color: #DA304C; color: white}
+
+.footer {
+	margin-top: 10em;
+	font-size: 12px;
+	bottom:0;
+	text-align:justify;
+	position: relative;
+	padding: 2em;
+    margin-left: 0;
+    margin-right: 0;
+
+	}
+p.iscriviti {
+	color: #DA304C;
+	font-family: 'Arapey'; font-style: italic;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
+
+.fullwidth {
+	margin-left: -6em;
+	margin-right: -6em;
+	display: block;
+	clear: both;
+	padding-bottom: 2em;
+	padding-top: 2em;
+} 
+
+.fullwidth p {font-size: 10px}
+.fullwidth h2 {font-size: 16px}
+.fullwidth img {max-width: 100%}
+.column4 { float: left; width: 20%; margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 2em}
+.column3 { float: left; width: 28%; padding-left: 2.5%; padding-right: 2.5%}
+.column2 { float: left; width: 45%; padding-left: 2.5%; padding-right: 2.5%; margin-bottom: 2em}
+.column2a { float: left; width: 70%; padding-right: 2%; text-align: center; padding-bottom: 1em;}
+.column2b { float: left; width: 27%; text-align: left;font-size: 14px; padding-bottom: 1em}
+.column2a img {max-width: 100%}
+.column2b h3 {margin-top: 0px}
+
+.clear {clear: both}
+
+
+ul {
+		list-style-type: square;
+		font-size: 16px;
+}
+
+ol {font-size: 16px;}
+
+ul li, ol li {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+
+div.aspect-ratio {
+	position:relative; 
+	width: 100%; 
+	padding-bottom: 56.22%; 
+    padding-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+video.video-tutorial-link {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+}
+
+
+/* blog  */
+
+h1.post-title {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.post-title a {
+	font-family: 'Roboto';
+	font-size: 0.8em;
+	color: #DA304C;
+	}
+.post-title a:hover {
+	font-size: 1em;
+}
+
+.post-details {
+	color: #828282 ;
+	margin-top: 5px;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+.post-tags {
+	padding: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #E0E3F0;
+
+}
+
+
+/* forms  */
+
+.form > input, textarea {
+	min-width: 90%;
+	margin-top: 2em;
+	padding: 25px;
+	border:none;
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 12px;
+
+}
+
+.form > textarea {
+	font-family: 'Prata', serif;
+	font-style: italic;
+	height: 400px;
+	margin-bottom: 2em;
+
+}
+
+button.submit{    
+	background-color: black;
+    font-family: inherit; 
+    width: 20%;
+    height: 40px; 
+    color: white; 
+    border-width: 0px; 
+    cursor: pointer;
+    border:0px;
+    font-size: 14px;
+
+}
+
+
+button.submit:hover{    
+	background-color: #DA304C;
+    color: black; 
+    font-weight: 900;
+
+}
+
+
+button.newsletter {    
+    font-size: 3em;
+    color: black; 
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: inherit;
+    margin:3px;
+    position: absolute;
+    padding-top: 7px;
+}
+
+button.newsletter:hover {    
+    color: #DA304C;
+}
+
+
+
+
+ /* Container holding the image and the text */
+.container {
+    position: relative;
+    margin-bottom: 2em;
+    height: 600px;
+}
+
+.container:hover img {
+  opacity: 0.3;
+}
+
+/* Bottom left text */
+.text-block {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 1em;
+} 
+
+
+@media screen and (max-width: 800px) {
+    .column4 {
+        width: 100%;
+    }
+        .column3 {
+        width: 100%;
+    }
+        .column2 {
+        width: 100%;
+    }
+
+    .logo-nav {
+	min-width: 100%;
+	padding-bottom: 2em;
+
+}
+
+div.pitch {
+	font-size: 1.5em;
+	min-width: 100%;
+}
+
+div.home-info{
+	max-width: 100%
+}
+
+nav {
+	display: block;
+}
+
+}}
+
+@media screen and (max-width: 900px) {
+
+.fullwidth {
+	min-width: 100%;
+	margin-left:inherit;
+	margin-right:inherit;
+} 
+
+.text-block {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    max-width: 100%;
+	margin: 0;
+} }

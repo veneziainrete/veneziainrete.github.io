@@ -10,7 +10,6 @@ email: mail.veneziainrete@gmail.com
 vimeo: 
 url: 
 logo: /img/logo.png
-thumbnail: /img/logo-sq.png
 
 plugins:
   - jekyll-feed
