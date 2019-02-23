@@ -1,0 +1,14 @@
+<nav>
+ <div class="icons">
+      <a style="color: #DA304C; font-size:1em" href="/" target="_blank" rel="noopener noreferrer" onmouseover="this.style.color='white' "onMouseOut="this.style.color='#DA304C'" ><i class="fas fa-flask"></i></a>
+ </div>
+<div id="menu-items" style="float: right; margin-top: 25px">
+  <a class="dropbtn {% if page.slug == 'progetto' %} current {% endif %}" href="/pagine/progetto">Il progetto</a>
+  <a class="dropbtn {% if page.slug == 'blog' %} current {% endif %}" href="/pagine/blog">Blog</a>
+  <a class="dropbtn {% if page.slug == 'attivita' %} current {% endif %}" href="/pagine/attivita">Attività</a>
+  <a class="dropbtn {% if page.slug == 'ricerca' %} current {% endif %}" href="/pagine/ricerca">Ricerca</a>
+  <a class="dropbtn {% if page.slug == 'dati' %} current {% endif %}" href="/pagine/dati">Dati</a>
+</div>
+</nav>
+<div class="clear"></div>
+<hr size="1" color="#ccc">

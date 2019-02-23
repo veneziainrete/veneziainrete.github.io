@@ -1,0 +1,16 @@
+name: elaboratorio civico
+description: elaboratorio civico
+exclude: [README.md]
+permalink: pretty
+twitter: 
+facebook: 
+github: 
+medium:
+email: mail.veneziainrete@gmail.com
+vimeo: 
+url: 
+logo: /img/logo.png
+thumbnail: /img/logo-sq.png
+
+plugins:
+  - jekyll-feed
