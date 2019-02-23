@@ -14,3 +14,5 @@ thumbnail: /img/logo-sq.png
 
 plugins:
   - jekyll-feed
+
+theme: jekyll-theme-cayman
