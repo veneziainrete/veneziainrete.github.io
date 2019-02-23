@@ -86,7 +86,8 @@ h1.pitch {
 	margin-bottom: 20px;
 	padding-bottom: 0px;
 	font-family: 'Arapey', serif;
-	word-wrap: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 	-webkit-hyphens: auto;
    -moz-hyphens: auto;
         hyphens: auto;}
