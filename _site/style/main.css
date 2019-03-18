@@ -33,6 +33,17 @@ main {
 	min-height: 100%
 	}
 
+img {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+code {
+	background-color: #f1f1f1;
+	border: solid #414141 0.5px;
+	border-radius: 2px;
+	padding: 3px;
+}
 a {
 	text-decoration:underline;
 	color: inherit;
@@ -86,7 +97,8 @@ h1.pitch {
 	margin-bottom: 20px;
 	padding-bottom: 0px;
 	font-family: 'Arapey', serif;
-	word-wrap: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 	-webkit-hyphens: auto;
    -moz-hyphens: auto;
         hyphens: auto;}
@@ -296,7 +308,7 @@ h1.post-title {
 }
 
 .form > textarea {
-	font-family: 'Prata', serif;
+	font-family: 'Arapey', serif;
 	font-style: italic;
 	height: 400px;
 	margin-bottom: 2em;
