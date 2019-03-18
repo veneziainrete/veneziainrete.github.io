@@ -240,10 +240,8 @@ ul {
 ol {font-size: 16px;}
 
 ul li, ol li {
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
+	text-align: left;
 }
-
 
 div.aspect-ratio {
 	position:relative; 
