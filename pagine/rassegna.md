@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Rassegna Stampa'
+title: 'Rassegna stampa'
 slug: rassegna
 ---
 Sito temporaneo **IN FASE DI COSTRUZIONE**

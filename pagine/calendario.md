@@ -1,6 +1,6 @@
 ---
 layout: calendar
-title: 'Calendario prossime attività'
+title: 'Calendario delle prossime attività'
 slug: calendario
 ---
 

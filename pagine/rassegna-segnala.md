@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 'Contribuisci alla Rassegna Stampa'
+title: 'Contribuisci alla rassegna stampa'
 slug: rassegna-segnala
 ---
 
-Per poter fare una rassegna stampa completa **abbiamo bisogno del tuo aiuto!** Contribuisci segnalandoci articoli attinenti ai temi dell'Osservatorio e verranno inclusi nel nostro archvio e nella rassegna stampa. Puoi decidere di segnalare in maniera anonima o fornendoci il tuo nome che verrà poi associato al contributo segnalato.
+Per poter fare una rassegna stampa completa **abbiamo bisogno del tuo aiuto!** Contribuisci segnalandoci articoli attinenti ai temi dell'Osservatorio e verranno inclusi nel nostro archvio e nella rassegna stampa. Puoi decidere di segnalare in maniera anonima o fornendoci il tuo nome, che verrà poi associato al contributo segnalato.
 
 <br>
 <div style="background-color: #f1f1f1; padding:40px; border-radius: 5px; margin-top: 40px; margin-bottom: 40px">
