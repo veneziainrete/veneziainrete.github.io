@@ -1,13 +1,29 @@
 <nav>
  <div class="icons">
-      <a style="color: #DA304C; font-size:1em" href="/" target="_blank" rel="noopener noreferrer" onmouseover="this.style.color='white' "onMouseOut="this.style.color='#DA304C'" ><i class="fas fa-flask"></i></a>
+      <a style="color: #DA304C; font-size:1em" href="/" rel="noopener noreferrer" onmouseover="this.style.color='white' "onMouseOut="this.style.color='#DA304C'" ><i class="fas fa-binoculars"></i></a>
  </div>
 <div id="menu-items" style="float: right; margin-top: 25px">
   <a class="dropbtn {% if page.slug == 'progetto' %} current {% endif %}" href="/pagine/progetto">Il progetto</a>
-  <a class="dropbtn {% if page.slug == 'blog' %} current {% endif %}" href="/pagine/blog">Blog</a>
-  <a class="dropbtn {% if page.slug == 'attivita' %} current {% endif %}" href="/pagine/attivita">Attività</a>
-  <a class="dropbtn {% if page.slug == 'ricerca' %} current {% endif %}" href="/pagine/ricerca">Ricerca</a>
-  <a class="dropbtn {% if page.slug == 'dati' %} current {% endif %}" href="/pagine/dati">Dati</a>
+  <a class="dropbtn {% if page.slug == 'calendario' %} current {% endif %}" href="/pagine/calendario">Calendario</a>
+  
+  <div class="dropdown">
+      <button class="dropbtn">Rassegna Stampa</button>
+      <div class="dropdown-content">
+	      <a class="dropbtn {% if page.slug == 'rassegna' %} current {% endif %}" href="/pagine/rassegna">Rassegna Stampa</a>
+	       <a class="dropbtn {% if page.slug == 'rassegna-segnala' %} current {% endif %}" href="/pagine/rassegna-segnala">Segnala</a>
+	        <a class="dropbtn {% if page.slug == 'rassegna-archivio' %} current {% endif %}" href="/pagine/rassegna-archivio">Archivio</a>
+     </div>
+  </div>
+  <div class="dropdown">
+      <button class="dropbtn">Approfondisci</button>
+      <div class="dropdown-content">
+	      <a class="dropbtn {% if page.slug == 'incontri' %} current {% endif %}" href="/pagine/incontri"> Materiale Incontri</a>
+	      <a class="dropbtn {% if page.slug == 'ricerca' %} current {% endif %}" href="/pagine/ricerca">Ricerca</a>
+	      <a class="dropbtn {% if page.slug == 'dati' %} current {% endif %}" href="/pagine/dati">Dati</a>
+     </div>
+  </div>
+  <a class="dropbtn {% if page.slug == 'comunicati' %} current {% endif %}" href="/pagine/comunicati">Comunicati</a>
+  
 </div>
 </nav>
 <div class="clear"></div>

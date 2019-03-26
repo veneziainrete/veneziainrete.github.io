@@ -1,9 +1,21 @@
 ---
-layout: default
-title: 'Attività'
-slug: attivita
+layout: post
+title: 'Le notizie di oggi'
+data: 2019-03-03
+autore: 'tizio'
+link-autore: ''
+tags: ['venezia', 'residenti', 'ex-scalera']
+header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
+categories: 'rassegna'
+excerpt_separator: <!--more-->
+
 ---
-In una terra lontana, dietro le montagne Parole, lontani dalle terre di Vocalia e Consonantia, vivono i testi casuali. Vivono isolati nella cittadina di Lettere, sulle coste del Semantico, un immenso oceano linguistico. Un piccolo ruscello chiamato Devoto Oli attraversa quei luoghi, rifornendoli di tutte le regolalie di cui hanno bisogno. È una terra paradismatica, un paese della cuccagna in cui golose porzioni di proposizioni arrostite volano in bocca a chi le desideri.
+
+In una terra lontana, dietro le montagne Parole, lontani dalle terre di Vocalia e Consonantia, vivono i testi casuali. Vivono isolati nella cittadina di Lettere, sulle coste del Semantico, un immenso oceano linguistico. 
+
+<!--more-->
+
+Un piccolo ruscello chiamato Devoto Oli attraversa quei luoghi, rifornendoli di tutte le regolalie di cui hanno bisogno. È una terra paradismatica, un paese della cuccagna in cui golose porzioni di proposizioni arrostite volano in bocca a chi le desideri.
 
 ## In arrivo prima o poi
 

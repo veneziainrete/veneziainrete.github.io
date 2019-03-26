@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 'Secondo incontro'
-data: 2019-02-05
-autore: 'caio'
+title: 'I numeri sui residenti non tornano'
+data: 2018-12-06
+autore: 'sempronio'
 link-autore: ''
+tags: ['venezia', 'residenti', 'laboratorio']
 header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
-tags: ['venezia', 'residenti', 'elaboratorio']
+categories: 'comunicati'
 excerpt_separator: <!--more-->
 ---
 

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: 'Primo incontro'
-data: 2018-12-06
-autore: 'sempronio'
+title: 'Il nostro primo incontro'
+data: 2019-03-03
+autore: 'tizio'
 link-autore: ''
-tags: ['venezia', 'residenti', 'laboratorio']
+tags: ['venezia', 'residenti', 'ex-scalera']
 header-image: "https://via.placeholder.com/2000x600.png?text=Immagine+di+qualcosa+di+strafico"
+categories: 'incontri'
 excerpt_separator: <!--more-->
+
 ---
 
 In una terra lontana, dietro le montagne Parole, lontani dalle terre di Vocalia e Consonantia, vivono i testi casuali. Vivono isolati nella cittadina di Lettere, sulle coste del Semantico, un immenso oceano linguistico. 
