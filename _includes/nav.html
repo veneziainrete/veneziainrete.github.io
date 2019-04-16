@@ -1,8 +1,11 @@
 <nav>
- <div class="icons">
-      <a style="color: #DA304C; font-size:1em" href="/" rel="noopener noreferrer" onmouseover="this.style.color='white' "onMouseOut="this.style.color='#DA304C'" ><i class="fas fa-binoculars"></i></a>
+ {% if page.layout != 'home' %}<div style="max-width: 10%; display: inline-block;">
+      <a pointer=mouse href="/" rel="noopener noreferrer" style="padding: 0px"><img src="/img/logo.svg" style="max-width: 100%; padding-bottom:0px"  /></a>
+      <div class="clear"></div>
  </div>
-<div id="menu-items" style="float: right; margin-top: 25px">
+
+ {%endif%}
+<div id="menu-items" style=" display: inline-block;{% if page.layout == 'home' %}width: auto; position: absolute; right: 0;margin-right: 20px;margin-bottom: 30px;{%endif%} {% if page.layout != 'home' %} float:right; margin-top: 25px{%endif%}">
   <a class="dropbtn {% if page.slug == 'progetto' %} current {% endif %}" href="/pagine/progetto">Il progetto</a>
   <a class="dropbtn {% if page.slug == 'calendario' %} current {% endif %}" href="/pagine/calendario">Calendario</a>
   
@@ -12,6 +15,7 @@
 	      <a class="dropbtn {% if page.slug == 'rassegna' %} current {% endif %}" href="/pagine/rassegna">Rassegna Stampa</a>
 	       <a class="dropbtn {% if page.slug == 'rassegna-segnala' %} current {% endif %}" href="/pagine/rassegna-segnala">Segnala</a>
 	        <a class="dropbtn {% if page.slug == 'rassegna-archivio' %} current {% endif %}" href="/pagine/rassegna-archivio">Archivio</a>
+          <div class="clear"></div>
      </div>
   </div>
   <div class="dropdown">
@@ -23,8 +27,11 @@
      </div>
   </div>
   <a class="dropbtn {% if page.slug == 'comunicati' %} current {% endif %}" href="/pagine/comunicati">Comunicati</a>
-  
-</div>
-</nav>
+ <div class="clear"></div> 
 <div class="clear"></div>
+</div>
+<div class="clear"></div>
+</nav>
+{% if page.layout != 'home' %}
 <hr size="1" color="#ccc">
+{%endif%}

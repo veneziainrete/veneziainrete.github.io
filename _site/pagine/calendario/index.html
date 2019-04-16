@@ -27,18 +27,20 @@
 <!-- Stylesheets -->
     <link rel="stylesheet" href="/style/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Arapey:400,400i" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     
 <!--- RSS -->
-<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="OCIO" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="OCIO" />
 </head>
 <nav>
- <div class="icons">
-      <a style="color: #DA304C; font-size:1em" href="/" rel="noopener noreferrer" onmouseover="this.style.color='white' "onMouseOut="this.style.color='#DA304C'" ><i class="fas fa-binoculars"></i></a>
+ <div style="max-width: 10%; display: inline-block;">
+      <a pointer=mouse href="/" rel="noopener noreferrer" style="padding: 0px"><img src="/img/logo.svg" style="max-width: 100%; padding-bottom:0px"  /></a>
+      <div class="clear"></div>
  </div>
-<div id="menu-items" style="float: right; margin-top: 25px">
+
+ 
+<div id="menu-items" style=" display: inline-block;  float:right; margin-top: 25px">
   <a class="dropbtn " href="/pagine/progetto">Il progetto</a>
   <a class="dropbtn  current " href="/pagine/calendario">Calendario</a>
   
@@ -48,6 +50,7 @@
 	      <a class="dropbtn " href="/pagine/rassegna">Rassegna Stampa</a>
 	       <a class="dropbtn " href="/pagine/rassegna-segnala">Segnala</a>
 	        <a class="dropbtn " href="/pagine/rassegna-archivio">Archivio</a>
+          <div class="clear"></div>
      </div>
   </div>
   <div class="dropdown">
@@ -59,23 +62,28 @@
      </div>
   </div>
   <a class="dropbtn " href="/pagine/comunicati">Comunicati</a>
-  
-</div>
-</nav>
+ <div class="clear"></div> 
 <div class="clear"></div>
+</div>
+<div class="clear"></div>
+</nav>
+
 <hr size="1" color="#ccc">
+
 
 <body>
   <header>
   </header>   
     <main>
       <h1 style="text-align:center;">Calendario delle prossime attività</h1>
-      <div class="content"><p>Sito temporaneo <strong>IN FASE DI COSTRUZIONE</strong></p>
+      <div class="content"><h2 id="prossimi-appuntamenti">Prossimi appuntamenti</h2>
 
-<h2 id="prossimi-appuntamenti">Prossimi appuntamenti</h2>
 <ul>
   <li>
-    <p><strong style="color:#DA304C">Terzo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 26/03/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese</p>
+    <p><strong style="color:#DA304C">Incontro per organizzare la C.U.R.A. - Camminata Urbana per la Riappropriazione dell’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 16/04/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Circolo ARCI Luigi Nono, Giudecca 235/A</p>
+  </li>
+  <li>
+    <p><strong style="color:#DA304C">Primo incontro di OCIO, osservatorio civico sulla casa e sulla residenzialità</strong> <br />   <i class="fas fa-calendar"></i> 07/05/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> DA DEFINIRE</p>
   </li>
   <li>
     <p><strong style="color:#DA304C">C.U.R.A. Camminata Urbana per la Riappropriazione dell’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 11/05/2019 • <i class="fas fa-clock"></i>  DA DEFINIRE • <i class="fas fa-map-signs"></i> Giudecca</p>
@@ -84,9 +92,15 @@
 
 <h2 id="appuntamenti-passati">Appuntamenti passati</h2>
 <ul>
-  <li><strong style="color:#DA304C">Secondo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 05/02/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese
-<br /><br /></li>
-  <li><strong style="color:#DA304C">Primo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 06/12/2018 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese</li>
+  <li>
+    <p><strong style="color:#DA304C">Terzo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 26/03/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese</p>
+  </li>
+  <li>
+    <p><strong style="color:#DA304C">Secondo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 05/02/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese</p>
+  </li>
+  <li>
+    <p><strong style="color:#DA304C">Primo appuntamento del Laboratorio Civico sull’Abitare</strong> <br />   <i class="fas fa-calendar"></i> 06/12/2018 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Patronato S.Agnese</p>
+  </li>
 </ul>
 </div>
     </main>

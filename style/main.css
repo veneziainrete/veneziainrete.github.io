@@ -38,6 +38,24 @@ img {
 	padding-bottom: 15px;
 }
 
+img.pitch {
+	max-width: 70%;
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+
+	img.pitch {
+	max-width: 100%;
+	margin-top: 100px;
+}
+
+#menu-items {
+	text-align: left;
+}
+    }
+
+
 code {
 	background-color: #f1f1f1;
 	border: solid #414141 0.5px;
@@ -47,6 +65,7 @@ code {
 a {
 	text-decoration:underline;
 	color: inherit;
+	cursor: pointer;
 	}
 
 a:hover {
@@ -60,11 +79,10 @@ h1 {
 	margin:1.414em 0 .5em;
 	line-height:1.2;
 	margin-top:0;
-	font-size:2.441em;
-	letter-spacing:.1em;
-	font-family: 'Oswald', serif;
-	font-weight: 700;
-	padding-bottom: 2em
+	font-size:4em;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	padding-bottom: 1.5em
 	}
 
 
@@ -96,7 +114,7 @@ h1.pitch {
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 	padding-bottom: 0px;
-	font-family: 'Arapey', serif;
+	font-family: 'Playfair Display', serif;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	-webkit-hyphens: auto;
@@ -204,7 +222,8 @@ nav a:hover {
 	}
 p.iscriviti {
 	color: #DA304C;
-	font-family: 'Arapey'; font-style: italic;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
 	padding-bottom: 10px;
 	font-size: 24px;
 }
@@ -265,6 +284,7 @@ video.video-tutorial-link {
 h1.post-title {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	font-size: 32px;
 }
 
 .post-title a {
@@ -306,7 +326,7 @@ h1.post-title {
 }
 
 .form > textarea {
-	font-family: 'Arapey', serif;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	height: 400px;
 	margin-bottom: 2em;
@@ -392,10 +412,13 @@ button.newsletter:hover {
 
 }
 
+
 div.pitch {
+	display: inline-block;
 	font-size: 1.5em;
 	min-width: 100%;
 }
+
 
 div.home-info{
 	max-width: 100%
