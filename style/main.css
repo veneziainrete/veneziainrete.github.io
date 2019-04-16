@@ -43,6 +43,18 @@ img.pitch {
 	margin-top: 40px;
 }
 
+div.logo {
+	max-width: 10%; 
+	display: inline-block;"
+}
+
+@media screen and (max-width: 630px) {
+div.logo {
+	max-width: 40%; 
+	display: block;"
+}
+}
+
 @media screen and (max-width: 600px) {
 
 	img.pitch {
@@ -53,6 +65,8 @@ img.pitch {
 #menu-items {
 	text-align: left;
 }
+
+
     }
 
 
