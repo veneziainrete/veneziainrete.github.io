@@ -19,7 +19,7 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
 - **Bianco**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #ffffff"></span> `#ffffff`<br>Usato per lo sfondo della pagina.
 - **Rosso Bordeaux**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #800000"></span> `#800000`<br>Colore associato a OCIO, usato per accenti, titoli, e link hover.
 - **Grigio chiaro**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #f1f1f1"></span> `#f1f1f1`<br>Usato per il footer della pagina e per lo sfondo del menu dropdown.
-- **Grigio medio**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #828282"></span> `#828282`<br>Usato testo per anteprima post
+- **Grigio medio**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #828282"></span> `#828282`<br>Usato per il testo di anteprima di un post.
 - **Grigio-blu** <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #E0E3F0"></span> `#e0e3f0`<br>Usato per sfondo tag post.
 
 ## 3. Logo e grafica
