@@ -83,7 +83,7 @@ a {
 	}
 
 a:hover {
-	color:#DA304C;
+	color:#800000;
 	}
 
 b,strong {
@@ -164,7 +164,7 @@ nav a {
 	}
 
 nav a:hover {
-	background-color: #DA304C;
+	background-color: #800000;
 	color: white;
 }
 
@@ -216,12 +216,12 @@ nav a:hover {
     
 }
 
-.dropdown-content a:hover {background-color: #DA304C; color: white}
+.dropdown-content a:hover {background-color: #800000; color: white}
 
 
 .dropdown:hover .dropdown-content {display: block}
 
-.dropbtn:hover {background-color: #DA304C; color: white}
+.dropbtn:hover {background-color: #800000; color: white}
 
 .footer {
 	margin-top: 10em;
@@ -235,7 +235,7 @@ nav a:hover {
 
 	}
 p.iscriviti {
-	color: #DA304C;
+	color: #800000;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	padding-bottom: 10px;
@@ -304,7 +304,7 @@ h1.post-title {
 .post-title a {
 	font-family: 'Roboto';
 	font-size: 0.8em;
-	color: #DA304C;
+	color: #800000;
 	}
 .post-title a:hover {
 	font-size: 1em;
@@ -362,7 +362,7 @@ button.submit{
 
 
 button.submit:hover{    
-	background-color: #DA304C;
+	background-color: #800000;
     color: black; 
     font-weight: 900;
 
@@ -382,7 +382,7 @@ button.newsletter {
 }
 
 button.newsletter:hover {    
-    color: #DA304C;
+    color: #800000;
 }
 
 
