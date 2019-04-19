@@ -38,4 +38,12 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
   <div style="background-color: black; color: white; padding: 1em;">
     <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo qui <a href="/img/banner.svg" download>in formato vettoriale</a> e <a href="/img/banner.png" download>qui come immagine</a></em></p>
  </div>
+</div>  
+
+### - Immagine quadrata per social 
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/profilo-facebook.png" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricala <a href="/img/profilo-facebook.png" download>qui</a></em></p>
+ </div>
 </div>   
