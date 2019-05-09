@@ -54,7 +54,17 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
   <div style="background-color: black; color: white; padding: 1em;">
     <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-mappa.jpeg" download>qui</a></em></p>
  </div>
+</div>
+
+
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/cura-mappa-color.jpg" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-mappa-color.jpg" download>qui</a></em></p>
+ </div>
 </div>  
+
+
 
 <div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
   <img src="/img/cura-volantino1.jpeg" style="max-width:80%;padding:1em">
@@ -76,3 +86,5 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
     <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-volantino3.jpeg" download>qui</a></em></p>
  </div>
 </div>  
+
+

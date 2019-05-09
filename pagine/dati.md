@@ -5,7 +5,7 @@ slug: dati
 ---
 Stiamo sviluppando un'interfaccia che ti permetterà di selezionare e visualizzare direttamente i dati. 
 
-Vista l'urgenza delle tematiche affrontate, abbiamo deciso comunque di rilasciare i dati in nostro possesso affinchè possano essere scaricati liberamente con  Licenza <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it/">Creative Commons Attribuzione - Condividi allo stesso modo</a> (CC-BY 4.0). La licenza ti permette di riutilizzare questi dati a patto di attribuirli alla fonte, cioè sia a OCIO che la persona che ha curato il dataset specifico che decidi di riutilizzare.
+Vista l'urgenza delle tematiche affrontate, abbiamo deciso comunque di rilasciare i dati in nostro possesso affinchè possano essere scaricati liberamente con  Licenza <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it/">Creative Commons Attribuzione - Condividi allo stesso modo</a> (CC-BY-SA 4.0). La licenza ti permette di riutilizzare questi dati a patto di attribuirli alla fonte, cioè sia a OCIO che la persona che ha curato il dataset specifico che decidi di riutilizzare.
 
 Prima di utilizzare il dataset, ti consigliamo anche di contattare la persona di riferimente per ciascun dataset, che trovi alla voce "Dati curati da". Questo perchè potrebbero esserci considerazioni metodologiche di cui tener conto in base all'uso che intendi fare dei dati.
 

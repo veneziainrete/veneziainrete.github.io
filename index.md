@@ -22,6 +22,3 @@ La piattaforma [ocio-venezia.it](https://ocio-venezia.it) - di tipo collaborativ
 ## OCIO si incontra ogni primo martedì del mese presso la sede della Società di mutuo soccorso dei calafati e carpentieri.
 
 
-# Prossimi appuntamenti
-
-<div class="fb-page" data-href="https://www.facebook.com/ocio.venezia" data-tabs="events" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ocio.venezia" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ocio.venezia">OCIO - Osservatorio CIvicO indipendente sulla casa e sulla residenzialità</a></blockquote></div>
