@@ -41,51 +41,71 @@
 
  
 <div id="menu-items" style=" display: inline-block;  float:right; margin-top: 25px">
-  <a class="dropbtn  current " href="/pagine/progetto">Il progetto</a>
-  <a class="dropbtn " href="/pagine/calendario">Calendario</a>
   
+
   <div class="dropdown">
-      <button class="dropbtn">Rassegna Stampa</button>
+  <a class="dropbtn  current " href="/pagine/progetto">Il progetto</a>
+  </div>
+  <div class="dropdown">
+  <a class="dropbtn " href="/pagine/calendario">Appuntamenti</a>
+  </div>
+
+  <div class="dropdown">
+      <button class="dropbtn ">Approfondisci</button>
       <div class="dropdown-content">
-	      <a class="dropbtn " href="/pagine/rassegna">Rassegna Stampa</a>
+        <a class="dropbtn " href="/pagine/incontri"> Materiale Incontri</a>
+         <!--<a class="dropbtn " href="/pagine/ricerca">Ricerca</a> -->
+        <a class="dropbtn " href="/pagine/dati">Dati</a>
+     </div>
+  </div>
+
+  <div class="dropdown">
+      <button class="dropbtn ">Rassegna Stampa</button>
+      <div class="dropdown-content">
+	      <!-- <a class="dropbtn " href="/pagine/rassegna">Rassegna Stampa</a> -->
 	       <a class="dropbtn " href="/pagine/rassegna-segnala">Segnala</a>
-	        <a class="dropbtn " href="/pagine/rassegna-archivio">Archivio</a>
+	        <!--<a class="dropbtn " href="/pagine/rassegna-archivio">Archivio</a> -->
           <div class="clear"></div>
      </div>
   </div>
-  <div class="dropdown">
-      <button class="dropbtn">Approfondisci</button>
-      <div class="dropdown-content">
-	      <a class="dropbtn " href="/pagine/incontri"> Materiale Incontri</a>
-	      <a class="dropbtn " href="/pagine/ricerca">Ricerca</a>
-	      <a class="dropbtn " href="/pagine/dati">Dati</a>
-     </div>
-  </div>
-  <a class="dropbtn " href="/pagine/comunicati">Comunicati</a>
+  
+   <!--<a class="dropbtn " href="/pagine/comunicati">Comunicati</a> -->
  <div class="clear"></div> 
 <div class="clear"></div>
 </div>
 <div class="clear"></div>
 </nav>
 
-<hr size="1" color="#ccc">
-
+<hr size="1" color="#ccc" style="margin-bottom: 0px;">
 
 <body>
   <header>
   </header>   
     <main>
       <h1 style="text-align:center;">Il progetto</h1>
-      <div class="content"><p>Sito temporaneo <strong>IN FASE DI COSTRUZIONE</strong></p>
+      <div class="content"><p style="font-size:1.3em;"><span style="color:#800000; font-weight:900">L’Osservatorio CIvicO sulla casa e la residenza</span> – O.CIO - si costituisce a esito di un percorso di incontri e di confronto tra molte realtà del tessuto associativo veneziano, singoli cittadini e alcuni ricercatori, avviato nel 2018 per analizzare la questione abitativa nella Venezia insulare (città storica + isole). </p>
+
+<p>In questo periodo vengono analizzati attraverso il recupero e lo studio di dati:</p>
+
+<ul>
+  <li>la situazione degli alloggi di edilizia residenziali pubblica (numero degli alloggi, loro assegnazione, criteri del bando regionale…)</li>
+  <li>i progetti annunciati e realizzati di edilizia residenziale sociale</li>
+  <li>le locazioni brevi (affittanze turistiche).</li>
+</ul>
+
+<p>Un osservatorio casa è già esistito ed ha svolto tra la metà degli anni ’90 e il 2012 un compito fondamentale di raccolta e lettura dei dati, analisi e approfondimento al fine di monitorare la situazione abitativa a Venezia: acquisti, locazioni, seconde case e flussi migratori tra città storica e terraferma. Dal momento in cui questa funzione non è stata più svolta è venuto a mancare un supporto fondamentale per comprendere come sta cambiando la città e quali azioni intraprendere per contrastare le criticità più evidenti.</p>
+
+<p>A conclusione degli incontri effettuati tra 2018 e 2019 si è scelto di costituire uno strumento che possa, in parte, recuperare l’eredità dell’osservatorio e rappresentare un luogo materiale e virtuale di confronto, analisi e di proposta.</p>
+
+<p>La piattaforma <a href="https://ocio-venezia.it">ocio-venezia.it</a> - di tipo collaborativo - consente infatti di raccogliere quanto fino adesso elaborato e di inserire dati, materiali e strumenti utili e necessari per capire la questione abitativa nella Venezia insulare.</p>
+
+<h2 id="ocio-si-incontra-ogni-primo-martedì-del-mese-presso-la-sede-della-società-di-mutuo-soccorso-dei-calafati-e-carpentieri">OCIO si incontra ogni primo martedì del mese presso la sede della Società di mutuo soccorso dei calafati e carpentieri.</h2>
 </div>
     </main>
 <div class="footer">
-<div style="text-align: center; padding: 10px; background-color: #f1f1f1;">
+<div style="text-align: center; padding: 10px; background-color: #f1f1f1; padding-top: 2em;">
       <div class="icons">
       <a href="mailto:mail.veneziainrete@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
-    </div>
-      <div class="icons">
-      <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
     </div>
 
     <div class="icons">
@@ -94,17 +114,19 @@
     <div class="icons">
       <a href="/feed.xml" target="_blank" rel="noopener noreferrer"><i class="fas fa-rss"></i></a>
     </div>
-     <form style="padding:15px 15px 20px 15px;text-align:center;" action="http://groups.google.com/group/veneziainrete/boxsubscribe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <!-- <form style="padding:15px 15px 20px 15px;text-align:center;" action="http://groups.google.com/group/veneziainrete/boxsubscribe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <p class="iscriviti">Iscriviti alla newsletter
       </p>
       <span>
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="questo per ora non funziona perchè bisogna settare google group" style="width:50%; height: 50px; font-size: 18px; font-family: 'Roboto'; font-weight: 200; padding-left: 2em;" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_65ed7ff3e6e5e4ae12a2d42ac_bb8f9ca1c8" tabindex="-1" value=""></div>
              <input type="hidden" value="1" name="embed"/></span>
             <button type="submit" class="newsletter"><i class="fas fa-check-circle" ></i></button> 
-        </form>  
-	<p style="padding-top: 3em;">Leggi la nostra <a href="/privacy">privacy policy</a> · Tranne indicazione contraria, il contenuto del sito è rilasciato sotto licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International</a></p>
+        </form>  -->
+	<p style="padding-top: 20px;text-align: left;padding-left: 10px;padding-right: 10px"><img src="/img/creativecommons.svg" style="max-width: 6%;padding-top: 0px;padding-bottom: 0px;"></p>
+  <p style="text-align: left;padding-left: 10px;padding-right: 10px; font-size: 0.8em">Leggi la nostra <a href="/privacy">privacy policy</a> · Tranne indicazione contraria, il contenuto del sito è rilasciato sotto licenza <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (<b>CC BY-NC-SA 4.0</b>)</a>. In poche parole: <b>Attribuzione</b> — Devi riconoscere una menzione di paternità adeguata, fornire un link alla licenza e indicare se sono state effettuate delle modifiche. Puoi fare ciò in qualsiasi maniera ragionevole possibile, ma non con modalità tali da suggerire che il licenziante avalli te o il tuo utilizzo del materiale. <b>NonCommerciale</b> — Non puoi utilizzare il materiale per scopi commerciali. <b>StessaLicenza</b> — Se remixi, trasformi il materiale o ti basi su di esso, devi distribuire i tuoi contributi con la stessa licenza del materiale originario. <b>Divieto di restrizioni aggiuntive</b> — Non puoi applicare termini legali o misure tecnologiche che impongano ad altri soggetti dei vincoli giuridici su quanto la licenza consente loro di fare.</p>
+
 </div>
 </div>
 </body>

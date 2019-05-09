@@ -7,13 +7,15 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
 
 ---- 
 
-## 1. Font del sito
+## 1. Sito
+
+### Font
 
 - **Titoli**: font-family: <span style = "font-family: Playfair Display;">Playfair Display</span>; font-weight: 400<br>*Scaricalo [qui](https://fonts.google.com/specimen/Playfair+Display)*
 - **Corpo**: font-family: Roboto; font-weight: 400<br>*Scaricalo [qui](https://fonts.google.com/specimen/Roboto)*
 
 
-## 2. Colori del sito
+### Colori
 
 - **Nero**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #000000"></span> `#000000`<br>Usato per il corpo del testo.
 - **Bianco**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #ffffff"></span> `#ffffff`<br>Usato per lo sfondo della pagina.
@@ -22,17 +24,15 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
 - **Grigio medio**: <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #828282"></span> `#828282`<br>Usato per il testo di anteprima di un post.
 - **Grigio-blu** <span style="width: 15px; height: 15px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #E0E3F0"></span> `#e0e3f0`<br>Usato per sfondo tag post.
 
-## 3. Logo e grafica
+## 2. Logo
 
-### - Logo di OCIO 
 <div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
   <img src="/img/logo.png" style="max-width:80%;padding:1em">
   <div style="background-color: black; color: white; padding: 1em;">
     <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo qui <a href="/img/logo.svg" download>in formato vettoriale</a> e <a href="/img/logo.png" download>qui come immagine</a></em></p>
  </div>
 </div>   
-
-### - Banner di OCIO   
+ 
 <div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
   <img src="/img/banner.png" style="max-width:80%;padding:1em">
   <div style="background-color: black; color: white; padding: 1em;">
@@ -40,10 +40,39 @@ Questa è una guida con indicazioni sullidentità visiva dell'Osservatorio.
  </div>
 </div>  
 
-### - Immagine quadrata per social 
 <div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
   <img src="/img/profilo-facebook.png" style="max-width:80%;padding:1em">
   <div style="background-color: black; color: white; padding: 1em;">
     <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricala <a href="/img/profilo-facebook.png" download>qui</a></em></p>
  </div>
-</div>   
+</div>
+
+## 3. Materiale grafico per C.U.R.A
+
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/cura-mappa.jpeg" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-mappa.jpeg" download>qui</a></em></p>
+ </div>
+</div>  
+
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/cura-volantino1.jpeg" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-volantino1.jpeg" download>qui</a></em></p>
+ </div>
+</div>  
+
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/cura-volantino2.jpeg" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-volantino2.jpeg" download>qui</a></em></p>
+ </div>
+</div>  
+
+<div style="margin-bottom: 2em; max-width:60%; background-color:#f1f1f1">
+  <img src="/img/cura-volantino3.jpeg" style="max-width:80%;padding:1em">
+  <div style="background-color: black; color: white; padding: 1em;">
+    <p style="color: white;margin:0; font-size:12px;"><em><i class="fa fa-caret-right" aria-hidden="true"></i> Scaricalo <a href="/img/cura-volantino3.jpeg" download>qui</a></em></p>
+ </div>
+</div>  
