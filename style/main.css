@@ -13,7 +13,8 @@ header {
 
 body { 
 	height: 100%;
-	padding:1em;
+	padding:0;
+	margin:0;
 	line-height: 1.75;
 	font-weight: 400;
 	min-height: 100vh;
@@ -43,7 +44,17 @@ img.pitch {
 
 div.logo {
 	max-width: 10%; 
-	display: inline-block;"
+	display: inline-block;
+	padding-left: 20px;
+}
+
+div.logo svg {
+	max-width: 100%;
+	max-height: 80px;
+}
+
+div.logo svg > path {
+fill:white !important;
 }
 
 @media screen and (max-width: 630px) {
@@ -81,20 +92,19 @@ a {
 	}
 
 a:hover {
-	color:#800000;
+	color:white;
+	background-color: black
 	}
 
 b,strong {
 	font-weight: 900;
 }
 h1 {
-	margin:1.414em 0 .5em;
 	line-height:1.2;
-	margin-top:0;
 	font-size:4em;
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
+	font-weight: 200;
 	padding-bottom: 1em
+	margin-top: 1.2em;
 	}
 
 
@@ -107,8 +117,9 @@ div.pitch {
 	margin:0 auto;
 	font-size: 2em;
 	text-align: left;
-	padding-bottom: 2em;
+	padding-bottom: 1.3em;
 	border-bottom: 5px solid;
+	font-weight: 200;
 
 }
 
@@ -141,7 +152,12 @@ h1.pitch {
 	margin: 5px 10px 5px 10px;
 	display: inline-block;
 }
+
+
+.icons a:hover{
+	color: #800000;
 }
+
 small {
 	font-size:.8em
 	}
@@ -154,6 +170,7 @@ main,section {
 nav {
 	font-size:14px;
 	display: inline-block;
+	background-color: black;
 	}
 
 nav a {
@@ -162,15 +179,15 @@ nav a {
 	}
 
 nav a:hover {
-	background-color: #800000;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 
 
 .dropbtn {
     background-color: inherit;
-    color: black;
+    color: white;
     padding: 0px;
     font-size: 12px;
     border: none; 
@@ -202,7 +219,7 @@ button.current {
     position: relative;
     display: inline-block;
     padding: 0px;
-    border-bottom: 3px solid #800000;
+    border-bottom: 3px solid white;
     margin-right: 20px;
     
 }
@@ -226,12 +243,12 @@ button.current {
     
 }
 
-.dropdown-content a:hover {background-color: #800000; color: white}
+.dropdown-content a:hover {background-color: black; color: white}
 
 
 .dropdown:hover .dropdown-content {display: block}
 
-.dropbtn:hover {background-color: #800000; color: white}
+.dropbtn:hover {background-color: white; color: black;}
 
 .footer {
 	margin-top: 10em;
@@ -317,15 +334,18 @@ h1.post-title {
 	font-family: 'Roboto';
 	font-size: 0.8em;
 	color: #800000;
+	font-weight: 400;
 	}
+
 .post-title a:hover {
-	font-size: 1em;
+	color: white;
+	background-color: black;
 }
 
 .post-details {
 	color: #828282 ;
 	margin-top: 5px;
-	font-size: 0.9em;
+	font-size: 0.6em;
 	font-weight: 400;
 }
 
@@ -335,6 +355,13 @@ h1.post-title {
 	padding-left: 5px;
 	background-color: #E0E3F0;
 
+}
+
+.post-summary {
+	margin-top: 5px;
+	font-size: 0.8em;
+	font-weight: 400;
+	color: black;
 }
 
 
