@@ -37,6 +37,62 @@ img {
 	padding-bottom: 15px;
 }
 
+
+/* Blockquotes */
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  border-left-color: #800000;
+  /*border-right-color: #800000;*/
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+  border-left-style: solid;
+  border-left-width: 15px;
+  /*border-right-style: solid;
+  border-right-width: 2px; */
+  font-family: : 'Roboto' serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-right: 4em;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  font-size: 60px;
+  font-weight: bold;
+  color: #800000;
+  position: absolute;
+  left: 10px;
+  top:5px;
+  
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
 img.pitch {
 	max-width: 70%;
 	margin-top: 40px;
@@ -61,6 +117,16 @@ fill:white !important;
 div.logo {
 	max-width: 40%; 
 	display: block;"
+}
+
+div.content {
+	padding: 10px;
+	text-align: left;
+}
+
+nav {
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 }
 
@@ -110,6 +176,7 @@ h1 {
 
 h1,h2,h3,h4 {
 	text-align: left;
+	font-weight: 200;
 }
 
 div.pitch {
@@ -257,12 +324,7 @@ button.current {
 	bottom:0;
 	text-align:justify;
 	position: relative;
-	padding: 2em;
-	padding-bottom: 0;
 	width: 100vw;
-    margin-left: -49px;
-    margin-right: 0;
-
 	}
 p.iscriviti {
 	color: #800000;
