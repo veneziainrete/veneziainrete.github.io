@@ -139,4 +139,4 @@ Non a caso la scena finale, prima di passare a un ending a base di vino e salumi
 **[Qui trovi il dossier](/pagine/dossier) presentato durante la camminata**
 
 ## Ecco [altre foto](https://www.facebook.com/philippe.apatie/posts/1306294009521827) della giornata
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphilippe.apatie%2Fposts%2F1306294009521827&width=500" width="500" height="728" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphilippe.apatie%2Fposts%2F1306294009521827&width=500" width="500" height="728" style="border:none;overflow:hidden; max-width:100%" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
