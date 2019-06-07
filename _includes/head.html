@@ -3,24 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>{{ page.title }} | {{ site.name}}</title>
+    <title>OCIO | {{ page.title }}</title>
     <meta name="author" content="OCIO">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description}}{% endif %}">
+    <meta name="description" content="{Osservatorio Civico indipendente sulla casa e sulla residenza">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
-    <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
     <meta name="twitter:title" content="OCIO">
-    {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% else %} <meta name="twitter:description" content="Osservatorio Civico indipendente sulla casa e sulla residenzialità">{% endif %}
+    <meta name="twitter:description" content="Osservatorio Civico indipendente sulla casa e sulla residenza">
     <meta name="twitter:image" content="https://www.ocio-venezia.it/img/social.png">
 
 <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <meta property="og:title" content="OCIO">
+    <meta property="og:description" content="Osservatorio Civico indipendente sulla casa e sulla residenza">
     <meta property="og:url" content="https://www.ocio-venezia.it">
     <meta property="og:site_name" content="OCIO">
     <meta property="og:image" content="https://www.ocio-venezia.it/img/social.png">
