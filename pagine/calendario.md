@@ -8,8 +8,6 @@ slug: calendario
 ## Prossimi appuntamenti
 
 
-- **[OCIO che rivemo](https://www.facebook.com/events/2487359921314327/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 07/06/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Campo Bandiera e Moro o de la Bragora, CASTELLO
-
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/917358808599669/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 02/07/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/09/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
@@ -18,6 +16,8 @@ slug: calendario
 
 
 <img src="/img/cura-mappa.jpeg" style="max-width:100%">
+
+- **[OCIO che rivemo](/incontri/2019/06/07/ocio-bragora/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 07/06/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Campo Bandiera e Moro o de la Bragora, CASTELLO
 
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/1100663416800827/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 04/06/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 

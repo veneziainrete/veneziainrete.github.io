@@ -383,6 +383,22 @@ video.video-tutorial-link {
 }
 
 
+/*slides embed */
+.slides-container{
+    position: relative;
+    max-width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+}
+
+.slides-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
 /* blog  */
 
 h1.post-title {
