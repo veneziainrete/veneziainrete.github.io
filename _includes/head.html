@@ -9,19 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OCIO">
-    <meta name="twitter:description" content="Osservatorio Civico indipendente sulla casa e sulla residenza">
-    <meta name="twitter:image" content="http://www.ocio-venezia.it/img/social.png">
+<meta name="twitter:card" content="summary" />
+  <!--  <meta name="twitter:site" content="@{{ site.twitter_username }}" />  -->
+  <!--  <meta name="twitter:creator" content="@{{ site.twitter_username }}" />  -->
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.header-image %}
+  <meta name="twitter:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.header-image }}" />
+{% else %}
+<meta name="twitter:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{/img/social.png}}" />
+{% endif %}
+
 
 <!-- Open Graph -->
-
-<meta property="og:url" content="{{page.url}}" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="{{page.title}}" />
-<meta property="og:description" content="OCIO - Osservatorio Civico indipendente sulla casa e sulla residenza" />
-<meta property="og:image" content="http://www.ocio-venezia.it/img/social.png" />
-<meta property="og:site_name" content="OCIO">
+{% if page.is_post %}
+  {% assign type = "article" %}
+{% else %}
+  {% assign type = "website" %}
+{% endif %}
+  <meta property="og:type" content="{{ type }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.header-image %}
+  <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.header-image }}" />
+  {% else %}
+   <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{/img/social.png}}" />
+  {% endif %}
+  {% if page.is_post %}
+  <meta property="og:site_name" content="{{ site.title }}" />
+{% endif %}
 
 
 <!-- Stylesheets -->
