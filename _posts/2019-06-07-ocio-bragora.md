@@ -12,7 +12,7 @@ categories: 'incontri'
 excerpt_separator: <!--more-->
 
 ---
-Ospiti del [Gruppo 25 Aprile](https://www.facebook.com/pg/veneziamiofuturo/about/?ref=page_internal) alla Bragora alcuni di noi hanno presentato il percorso dell'Osservatorio CIvicO sulla casa e la residenza, con i dati già raccolti e i progetti per il futuro!<!--more-->
+Ospiti del [Gruppo 25 Aprile](https://www.facebook.com/pg/veneziamiofuturo/about/?ref=page_internal) alla Bragora, alcuni di noi hanno presentato il percorso dell'Osservatorio CIvicO sulla casa e la residenza, con i dati già raccolti e i progetti per il futuro!<!--more-->
 
 
  
