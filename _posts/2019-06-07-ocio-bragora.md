@@ -8,6 +8,7 @@ tags: ['patrimonio comunale' , 'abitazioni', 'edilizia residenziale pubblica']
 header-image: "/img/ocio-rivemo.jpg"
 foto-titolo: "Foto dell'evento per gentile concessione del fotografo "
 autore-foto: "VeneziaMioFuturo VeniceMyFuture"
+autore-foto-link: "https://www.facebook.com/veneziamiofuturo"
 categories: 'incontri'
 excerpt_separator: <!--more-->
 
