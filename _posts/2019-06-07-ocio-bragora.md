@@ -12,10 +12,10 @@ categories: 'incontri'
 excerpt_separator: <!--more-->
 
 ---
-Ospiti del [Gruppo 25 Aprile](https://www.facebook.com/pg/veneziamiofuturo/about/?ref=page_internal), Maria Fiano, Francesco Penzo, Alice Corona, Giancarlo Ghigi e Remi Wacogne hanno presentato OCIO, Osservatorio CIvicO indipendente sulla casa e la residenza, con i dati già raccolti e i progetti per il futuro! .<!--more-->
+Ospiti del [Gruppo 25 Aprile](https://www.facebook.com/pg/veneziamiofuturo/about/?ref=page_internal) alla Bragora alcuni di noi hanno presentato il percorso dell'Osservatorio CIvicO sulla casa e la residenza, con i dati già raccolti e i progetti per il futuro!<!--more-->
 
 
-Oggi alla Bragora alcuni di noi hanno presentato il percorso dell'Osservatorio CIvicO sulla casa e la residenza, il patrimonio di edilizia residenziale pubblica, le locazione turistiche, i progetti di housing sociale (edilizia residenziale sociale). 
+ 
 
 ## Il materiale presentato all'incontro. 
 
