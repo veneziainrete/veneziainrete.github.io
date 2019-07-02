@@ -1,0 +1,110 @@
+{% include head.html %}
+{% include nav.html %}
+<body>
+  <header>
+  </header>   
+  <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src={{page.header-image}}><p style="font-size: 0.7em; text-align: center; margin-top: 0px;">{{page.foto-titolo}} <a href="{{page.autore-foto-link}}">{{page.autore-foto}}</a></div>
+    <main>	
+      <h1 style="text-align:center; margin-bottom: 20px; ">{{ page.title}}</h1>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;""></i> {{page.date | date: "%d/%m/%Y"}} • <b>Autore</b>: <a href="{{page.autore-link}}">{{page.autore}}</a><br> {% for tag in page.tags %} <span class="post-tags">{{tag}}</span> {% endfor %}</p>
+      <div class="content">{{content}}</div>
+      <p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p>
+      <div class="switch-field">
+        <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
+        <label for="radio-three">Sestieri + Giudecca & Sacca Fisola</label>
+        <input type="radio" id="radio-four" name="switch-two" value="acqua" onclick="acqua()" />
+        <label for="radio-four">Venezia Insulare e Litorale</label>
+        <input type="radio" id="radio-five" name="switch-two" value="terra" onclick="terra()" />
+        <label for="radio-five">Terraferma</label>
+        <input type="radio" id="radio-six" name="switch-two" value="tutto" onclick="tutto()"/>
+        <label for="radio-six">Tutto il Comune</label>
+    </div>
+<div class="counter">
+		<div class="column3" style="border-right: 2px solid black">
+      <p><span class="number" id="popolazione">{{page.p-popolazione}}</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">{{page.p-popolazione-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
+	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">{{page.p-totale-posti}}</span><br><span class= "number-descr"> posti letto in totali<br>(<b id="letti-tot-share">{{page.p-totale-posti-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
+	<div class="column3"><p><span class="number" id="letti-loc">{{page.p-locazione-posti}}</span><br><span class= "number-descr"> posti letto in locazioni turistiche<br>(<b id="letti-loc-share">{{page.p-locazione-posti-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
+<div class="clear"></div>
+</div>
+
+  
+
+
+<div class="slides-container" style="height:700px;">
+<iframe src="/viz/affittanze/index.html" style="width:100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<p>linea del tempo? rassegna stampa? elenco regolamentazioni in giro per il mondo?</p>
+</main>
+<script>
+
+function centro() {
+  var pop = document.getElementById("popolazione");
+  pop.innerHTML = "{{page.p-popolazione}}";
+  var popShare = document.getElementById("pop-share");
+  popShare.innerHTML = "{{page.p-popolazione-share}}";
+
+  var lettiTot = document.getElementById("letti-tot");
+  lettiTot.innerHTML = "{{page.p-totale-posti}}";
+  var lettiTotShare = document.getElementById("letti-tot-share");
+  lettiTotShare.innerHTML = "{{page.p-totale-posti-share}}";
+  
+  var lettiLoc = document.getElementById("letti-loc");
+  lettiLoc.innerHTML = "{{page.p-locazione-posti}}";
+  var lettiLocShare = document.getElementById("letti-loc-share");
+  lettiLocShare.innerHTML = "{{page.p-locazione-posti-share}}";
+  
+}
+
+function acqua() {
+  var pop = document.getElementById("popolazione");
+  pop.innerHTML = "{{page.a-popolazione}}";
+  var popShare = document.getElementById("pop-share");
+  popShare.innerHTML = "{{page.a-popolazione-share}}";
+
+  var lettiTot = document.getElementById("letti-tot");
+  lettiTot.innerHTML = "{{page.a-totale-posti}}";
+  var lettiTotShare = document.getElementById("letti-tot-share");
+  lettiTotShare.innerHTML = "{{page.a-totale-posti-share}}";
+  
+  var lettiLoc = document.getElementById("letti-loc");
+  lettiLoc.innerHTML = "{{page.a-locazione-posti}}";
+  var lettiLocShare = document.getElementById("letti-loc-share");
+  lettiLocShare.innerHTML = "{{page.a-locazione-posti-share}}";
+}
+
+function terra() {
+  var pop = document.getElementById("popolazione");
+  pop.innerHTML = "{{page.t-popolazione}}";
+  var popShare = document.getElementById("pop-share");
+  popShare.innerHTML = "{{page.t-popolazione-share}}";
+
+  var lettiTot = document.getElementById("letti-tot");
+  lettiTot.innerHTML = "{{page.t-totale-posti}}";
+  var lettiTotShare = document.getElementById("letti-tot-share");
+  lettiTotShare.innerHTML = "{{page.t-totale-posti-share}}";
+  
+  var lettiLoc = document.getElementById("letti-loc");
+  lettiLoc.innerHTML = "{{page.t-locazione-posti}}";
+  var lettiLocShare = document.getElementById("letti-loc-share");
+  lettiLocShare.innerHTML = "{{page.t-locazione-posti-share}}";
+}
+
+function tutto() {
+  var pop = document.getElementById("popolazione");
+  pop.innerHTML = "{{page.c-popolazione}}";
+  var popShare = document.getElementById("pop-share");
+  popShare.innerHTML = "{{page.c-popolazione-share}}";
+
+  var lettiTot = document.getElementById("letti-tot");
+  lettiTot.innerHTML = "{{page.c-totale-posti}}";
+  var lettiTotShare = document.getElementById("letti-tot-share");
+  lettiTotShare.innerHTML = "{{page.c-totale-posti-share}}";
+  
+  var lettiLoc = document.getElementById("letti-loc");
+  lettiLoc.innerHTML = "{{page.c-locazione-posti}}";
+  var lettiLocShare = document.getElementById("letti-loc-share");
+  lettiLocShare.innerHTML = "{{page.c-locazione-posti-share}}";
+}
+</script>
+{% include footer.html %}

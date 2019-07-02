@@ -42,6 +42,25 @@
         <p class="post-summary">{{post.excerpt | remove: '<p>' | remove: '</p>'}}  <span style="font-weight: 900"> <a href="{{post.url}}"><i class="fas fa-caret-square-right" style="padding-right: 10px; padding-left: 10px"></i>Leggi tutto</a></span></p>
         {% endif %} 
         {% endfor %}
+
+        {% elsif page.slug == 'dossier' %}
+        {% for post in site.posts %}
+        {% if post.categories contains "dossier" %}
+        <h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1>
+        <p class="post-details"><i class="far fa-calendar" style="padding-right: 10px;""></i> {{post.date | date: "%d/%m/%Y"}} • <b>Autore</b>: <a href="{{post.link-autore}}">{{post.autore}}</a> • {% for tag in post.tags %} <span class="post-tags">{{tag}}</span> {% endfor %}</p>
+        <p class="post-summary">{{post.excerpt | remove: '<p>' | remove: '</p>'}}  <span style="font-weight: 900"> <a href="{{post.url}}"><i class="fas fa-caret-square-right" style="padding-right: 10px; padding-left: 10px"></i>Leggi tutto</a></span></p>
+        {% endif %} 
+        {% endfor %}
+
+        {% elsif page.slug == 'monitoraggio' %}
+        {% for post in site.posts %}
+        {% if post.categories contains "monitoraggio" %}
+        <h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1>
+        <p class="post-details"><i class="far fa-calendar" style="padding-right: 10px;""></i> {{post.date | date: "%d/%m/%Y"}} • <b>Autore</b>: <a href="{{post.link-autore}}">{{post.autore}}</a> • {% for tag in post.tags %} <span class="post-tags">{{tag}}</span> {% endfor %}</p>
+        <p class="post-summary">{{post.excerpt | remove: '<p>' | remove: '</p>'}}  <span style="font-weight: 900"> <a href="{{post.url}}"><i class="fas fa-caret-square-right" style="padding-right: 10px; padding-left: 10px"></i>Leggi tutto</a></span></p>
+        {% endif %} 
+        {% endfor %}
+        
       {% endif %} 
       </div>
 </div>

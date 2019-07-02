@@ -93,6 +93,79 @@ blockquote a:hover{
  color: #666;
 }
 
+
+
+/* Radio buttons */
+
+.switch-field {
+    display: flex;
+    margin-bottom: 36px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border: 2px solid black;
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+    background-color: black;
+    box-shadow: none;
+    color: white;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 0px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0px;
+}
+
+
+/* counter */
+
+.counter {
+	margin-bottom: 100px;
+}
+
+.counter > .column3 > p {
+	text-align: center;
+}
+
+span.number {
+	font-weight: 900; 
+	font-size: 3.5em;
+	line-height: 1em;
+}
+
+span.number-descr {
+	font-weight: 200; 
+	font-size: 0.9em;
+	text-align: center;
+}
+
 img.pitch {
 	max-width: 70%;
 	margin-top: 40px;
@@ -167,7 +240,7 @@ b,strong {
 }
 h1 {
 	line-height:1.2;
-	font-size:4em;
+	font-size:3em;
 	font-weight: 200;
 	padding-bottom: 1em
 	margin-top: 1.2em;
@@ -345,12 +418,7 @@ p.iscriviti {
 .fullwidth h2 {font-size: 16px}
 .fullwidth img {max-width: 100%}
 .column4 { float: left; width: 20%; margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 2em}
-.column3 { float: left; width: 28%; padding-left: 2.5%; padding-right: 2.5%}
-.column2 { float: left; width: 45%; padding-left: 2.5%; padding-right: 2.5%; margin-bottom: 2em}
-.column2a { float: left; width: 70%; padding-right: 2%; text-align: center; padding-bottom: 1em;}
-.column2b { float: left; width: 27%; text-align: left;font-size: 14px; padding-bottom: 1em}
-.column2a img {max-width: 100%}
-.column2b h3 {margin-top: 0px}
+.column3 { float: left; width: 33%}
 
 .clear {clear: both}
 
