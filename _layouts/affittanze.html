@@ -1,4 +1,5 @@
 {% include head.html %}
+
 {% include nav.html %}
 <body>
   <header>
@@ -6,9 +7,8 @@
   <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src={{page.header-image}}><p style="font-size: 0.7em; text-align: center; margin-top: 0px;">{{page.foto-titolo}} <a href="{{page.autore-foto-link}}">{{page.autore-foto}}</a></div>
     <main>	
       <h1 style="text-align:center; margin-bottom: 20px; ">{{ page.title}}</h1>
-      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;""></i> {{page.date | date: "%d/%m/%Y"}} • <b>Autore</b>: <a href="{{page.autore-link}}">{{page.autore}}</a><br> {% for tag in page.tags %} <span class="post-tags">{{tag}}</span> {% endfor %}</p>
-      <div class="content">{{content}}</div>
-      <p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.dati-data | date: "%d/%m/%Y"}}</p>
+      <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p></div>
       <div class="switch-field">
         <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
         <label for="radio-three">Sestieri + Giudecca & Sacca Fisola</label>
@@ -28,13 +28,19 @@
 </div>
 
   
+<div class="content"><p>La seguente mappa mostra la concentrazione di posti letto in confronto alla popolazione residente in ciascun isolato. Più un isolato è colorato di rosso scuro, maggiore è la sproporzione di posti letto in rapporto ai residenti. Considera che anche gli isolati di colore bianco e un verdino chiaro, per quanto qui il rapporto non sia così sbilanciato a favore del turismo, sono comunque da considerarsi luoghi ad alta pressione, essendoci solo un piccolo margine di residenti in più rispetto alla capacità ricettiva.<br><br>
+<em style="font-size: 0.8em">Esempio: un isolato con 100% più posti letto che residenti vuol dire che i posti letto disponibili sono il doppio della popolazione; un isolato con 200% più posti letto che residenti vuol dire che i posti letto sono il 3 volte il numero dei residenti.</em></p></div>
 
+<div class="slides-container" style="height:600px;padding-top: 0px">
+<iframe src="/viz/affittanze/index.html" style="width:100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="content"><h2>Fonti</h2>
+<ul style="padding-left:15px">
+  <li><b>Strutture turistiche</b>: <a href="http://geoportale.comune.venezia.it/Html5Viewer/index.html?viewer=IDS.IDS&LOCALE=IT-it">Portale GeoIDS</a></li>
+  <li><b>Popolazione</b>: <a href="https://portale.comune.venezia.it/millefoglie/statistiche/home">Stime giornaliere Anagrafe Comune di Venezia</a></li>
+  <li><b>Basi dati geografici</b>: <a href="http://dati.venezia.it/?q=content/cartografia-di-base">Open Data Venezia, Cartografia di base</a></li>
+<li><b>Corrispondenze tra isolato -> località -> quartiere -> municipalità -> gruppo</b>: <a href="http://geotributi.comune.venezia.it/">Portale GeoTributi</a></li>
+</ul></div>
 
-<div class="slides-container" style="height:700px;">
-<iframe src="/viz/affittanze/index.html" style="width:100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-<p>linea del tempo? rassegna stampa? elenco regolamentazioni in giro per il mondo?</p>
 </main>
 <script>
 
