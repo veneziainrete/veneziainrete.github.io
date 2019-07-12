@@ -1,11 +1,9 @@
 ---
 layout : "affittanze"
 title : "Gli squilibri del turismo veneziano"
-data : "2019-07-02"
-autore : "OCIO"
-link-autore : "https://ocio-venezia.it"
 categories : "monitoraggio"
-excerpt_separator : "<!--more-->"
+header-img: '/viz/affittanze/img/header-img.jpg'
+excerpt : "<b>Bollettino mensile</b> con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero, confrontati con quelli sulla popolazione. Scopri, attraverso grafici e mappe interattive, le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico."
 dati-data : "2019-06-25"
 p-totale-posti : "46.229"
 p-totale-posti-share : "64"
@@ -41,4 +39,3 @@ c-popolazione : "259.080"
 c-popolazione-share : "100"
 ---
 
-**Bollettino mensile** con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero, confrontati con quelli sulla popolazione. Scopri, attraverso grafici e mappe interattive, le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico. <!--more-->

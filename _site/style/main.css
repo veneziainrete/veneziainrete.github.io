@@ -235,6 +235,36 @@ a:hover {
 	background-color: black
 	}
 
+
+.header-img-blog {
+		max-width: 100%;
+		padding: 0px;
+}
+
+
+
+.card-container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+a.monitoraggio-title {
+	color: white !important;
+
+}
+
+a.monitoraggio-title:hover {
+	font-size: 1.2em;
+
+}
+
 b,strong {
 	font-weight: 900;
 }
@@ -419,6 +449,7 @@ p.iscriviti {
 .fullwidth img {max-width: 100%}
 .column4 { float: left; width: 20%; margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 2em}
 .column3 { float: left; width: 33%}
+.column2 { float: left; width: 50%}
 
 .clear {clear: both}
 
