@@ -260,10 +260,6 @@ a.monitoraggio-title {
 
 }
 
-a.monitoraggio-title:hover {
-	font-size: 1.2em;
-
-}
 
 b,strong {
 	font-weight: 900;
@@ -444,12 +440,18 @@ p.iscriviti {
 	padding-top: 2em;
 } 
 
+.fullwidth-body {
+	width: 80vw; 
+	margin-left: calc(50% - 40vw)
+}
+
 .fullwidth p {font-size: 10px}
 .fullwidth h2 {font-size: 16px}
 .fullwidth img {max-width: 100%}
 .column4 { float: left; width: 20%; margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 2em}
 .column3 { float: left; width: 33%}
-.column2 { float: left; width: 50%}
+.column2 { float: left; width: 48%}
+div.column2:nth-child(2) {float: right;}
 
 .clear {clear: both}
 
