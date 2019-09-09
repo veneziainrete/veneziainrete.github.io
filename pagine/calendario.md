@@ -8,12 +8,18 @@ slug: calendario
 ## Prossimi appuntamenti
 
 
-- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/09/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
+- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 01/10/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
+
+-  **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 05/11/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
+
+- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/12/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 ## Appuntamenti passati
 
 
 <img src="/img/cura-mappa.jpeg" style="max-width:100%">
+
+- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/09/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/917358808599669/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 02/07/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
