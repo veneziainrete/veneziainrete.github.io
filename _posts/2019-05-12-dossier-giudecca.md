@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'La Giudecca nel contesto veneziano'
+title: 'DOSSIER: La Giudecca nel contesto veneziano'
 data: 2019-05-12
 autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"
 header-image: "/img/cura1.jpg"
-categories: 'dossier'
+categories: 'articoli'
 excerpt_separator: <!--more-->
 
 ---

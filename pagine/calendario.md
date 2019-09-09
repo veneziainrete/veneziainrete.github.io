@@ -10,14 +10,16 @@ slug: calendario
 
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 01/10/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
--  **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 05/11/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
+-  **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/748636502252723/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 05/11/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
-- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/12/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
+- **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/556822688389486/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/12/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 ## Appuntamenti passati
 
 
 <img src="/img/cura-mappa.jpeg" style="max-width:100%">
+
+- **[Assemblea pubblica per discutere sul nuovo regolamento regionale ERP](https://www.facebook.com/ocio.venezia/posts/1324234534420274)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/09/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Sala del Gruppo Anziani di Sacca Fisola
 
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/367852273836612/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/09/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
