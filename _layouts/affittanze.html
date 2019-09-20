@@ -11,7 +11,7 @@
       <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p></div>
       <div class="switch-field">
         <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
-        <label for="radio-three">Sestieri + Giudecca & Sacca Fisola</label>
+        <label for="radio-three">Venezia Sestieri + Giudecca e Sacca Fisola</label>
         <input type="radio" id="radio-four" name="switch-two" value="acqua" onclick="acqua()" />
         <label for="radio-four">Venezia Insulare e Litorale</label>
         <input type="radio" id="radio-five" name="switch-two" value="terra" onclick="terra()" />
@@ -22,25 +22,53 @@
 <div class="counter">
 		<div class="column3" style="border-right: 2px solid black">
       <p><span class="number" id="popolazione">{{page.p-popolazione}}</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">{{page.p-popolazione-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
-	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">{{page.p-totale-posti}}</span><br><span class= "number-descr"> posti letto in totali<br>(<b id="letti-tot-share">{{page.p-totale-posti-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
+	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">{{page.p-totale-posti}}</span><br><span class= "number-descr"> posti letto in totale<br>(<b id="letti-tot-share">{{page.p-totale-posti-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
 	<div class="column3"><p><span class="number" id="letti-loc">{{page.p-locazione-posti}}</span><br><span class= "number-descr"> posti letto in locazioni turistiche<br>(<b id="letti-loc-share">{{page.p-locazione-posti-share}}</b><b>%</b> sul totale del Comune)</span></p></div>
 <div class="clear"></div>
 </div>
 
-  
-<div class="content"><p>La seguente mappa mostra la concentrazione di posti letto in confronto alla popolazione residente in ciascun isolato. Più un isolato è colorato di rosso scuro, maggiore è la sproporzione di posti letto in rapporto ai residenti. Considera che anche gli isolati di colore bianco e un verdino chiaro, per quanto qui il rapporto non sia così sbilanciato a favore del turismo, sono comunque da considerarsi luoghi ad alta pressione, essendoci solo un piccolo margine di residenti in più rispetto alla capacità ricettiva.<br><br>
-<em style="font-size: 0.8em">Esempio: un isolato con 100% più posti letto che residenti vuol dire che i posti letto disponibili sono il doppio della popolazione; un isolato con 200% più posti letto che residenti vuol dire che i posti letto sono il 3 volte il numero dei residenti.</em></p></div>
+<div class="content">
+  <h2><span style="font-weight:700">※ Normativa</span>: Cosa dicono le varie istituzioni su Airbnb e locazioni turistiche</h2>
+<h3>⁕ Normativa locale, nazionale e internazionale di riferimento</h3>
+<iframe style="min-height: 700px" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1S0yBeNk_qBUeDmJvaJmRGWr5sUZUpDrgVBZuZVDmoHM&font=OpenSans-GentiumBook&lang=en&initial_zoom=2' width='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+  <h3>⁕ Contesto internazionale</h3>
+</div>
+
+<div class="content">
+  <h2><span style="font-weight:700">※ I dati</span>: le contraddizioni della sharing economy, il caso Venezia</h2>
+  <h3>⁕ 1. Crescita esponenziale e incontrollata</h3>
+<iframe title="Venezia 1997 - 2018:L'impatto delle " aria-label="Interactive line chart" id="datawrapper-chart-UzR8S" src="//datawrapper.dwcdn.net/UzR8S/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+  <br>
+  <br>
+  <div class="fullwidth-body">
+  <iframe title="Venezia 1997 - 2018:Percentuale di alloggi privati sul totale delle strutture ricettive." aria-label="Interactive area chart" id="datawrapper-chart-bEkq3" src="//datawrapper.dwcdn.net/bEkq3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 48% !important; border: none; float: left;margin-right: 4%" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+  <iframe title="Venezia 1997 - 2018:Percentuale di posti letto a Venezia sul totale posti letto del Comune intero" aria-label="Interactive line chart" id="datawrapper-chart-6s7wU" src="//datawrapper.dwcdn.net/6s7wU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 48% !important; border: none;float: left;"" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+  <br><br>
+</div>
+<iframe title="Venezia 1997 - 2018: Nel 2018 tanti  residenti." aria-label="Interactive line chart" id="datawrapper-chart-lpd4A" src="//datawrapper.dwcdn.net/lpd4A/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="800"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+  <br>
+  <br>
+
+  <h3>⁕ 2. Sovraccarico turistico in zone di emergenza abitativa</h3><p>La seguente mappa mostra la concentrazione di posti letto in confronto alla popolazione residente in ciascun isolato. Più un isolato è colorato di rosso scuro, maggiore è la sproporzione di posti letto in rapporto ai residenti. Considera che anche gli isolati di colore bianco e un verdino chiaro, per quanto qui il rapporto non sia così sbilanciato a favore del turismo, sono comunque da considerarsi luoghi ad alta pressione, essendoci solo un piccolo margine di residenti in più rispetto alla capacità ricettiva.<br><br>
+<em style="font-size: 0.8em">Esempio: un isolato con 100% più posti letto che residenti vuol dire che i posti letto disponibili sono il doppio della popolazione; un isolato con 200% più posti letto che residenti vuol dire che i posti letto sono il 3 volte il numero dei residenti.</em></p>
 
 <div class="slides-container" style="height:600px;padding-top: 0px">
 <iframe src="/viz/affittanze/index.html" style="width:100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
+  <h3>⁕ 3. Professionalizzazione del settore e concentrazione delle risorse</h3>
+  <p><em>Ti consigliamo di esplorare il grafico seguente in <a href="/viz/airbnb/grafo" target="_blanck">una pagina tutta sua</a>.</em></p>
+<iframe src="/viz/airbnb/grafo/index.html" style="width:100%;" height="900px" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 <div class="content"><h2>Fonti</h2>
 <ul style="padding-left:15px">
-  <li><b>Strutture turistiche</b>: <a href="http://geoportale.comune.venezia.it/Html5Viewer/index.html?viewer=IDS.IDS&LOCALE=IT-it">Portale GeoIDS</a></li>
-  <li><b>Popolazione</b>: <a href="https://portale.comune.venezia.it/millefoglie/statistiche/home">Stime giornaliere Anagrafe Comune di Venezia</a></li>
+  <li><b>Dati sul settore ricettivo 1997 - 2018</b>: Ufficio di Statistica della Regione Veneto</li>
+  <li><b>Dati sulla popolazione 1997 - 2018</b>: Comune di Venezia - Servizio Statistica e ricerca su dati Anagrafe comunale</li>
+  <li><b>Dati aggiornati quotidianamente sulle strutture turistiche a Venezia</b>: <a href="http://geoportale.comune.venezia.it/Html5Viewer/index.html?viewer=IDS.IDS&LOCALE=IT-it">Portale GeoIDS</a></li>
+  <li><b>Dati aggiornati quotidianamente sulla popolazione a Venezia</b>: <a href="https://portale.comune.venezia.it/millefoglie/statistiche/home">Stime giornaliere Anagrafe Comune di Venezia</a></li>
   <li><b>Basi dati geografici</b>: <a href="http://dati.venezia.it/?q=content/cartografia-di-base">Open Data Venezia, Cartografia di base</a></li>
 <li><b>Corrispondenze tra isolato -> località -> quartiere -> municipalità -> gruppo</b>: <a href="http://geotributi.comune.venezia.it/">Portale GeoTributi</a></li>
 </ul></div>
-
 </main>
 <script>
 
@@ -76,7 +104,7 @@ function acqua() {
   var lettiLoc = document.getElementById("letti-loc");
   lettiLoc.innerHTML = "{{page.a-locazione-posti}}";
   var lettiLocShare = document.getElementById("letti-loc-share");
-  lettiLocShare.innerHTML = "{{page.a-locazione-posti-share}}";
+  lettiLocShare.innerHTML = "{{page.l-locazione-posti-share}}";
 }
 
 function terra() {
