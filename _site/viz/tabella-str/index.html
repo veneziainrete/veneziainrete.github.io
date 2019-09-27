@@ -1,0 +1,284 @@
+<html>
+<head>
+	<link href="dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="dist/js/row_manager.js"></script>
+<script type="text/javascript" src="dist/js/row.js"></script>
+<script type="text/javascript" src="dist/js/tabulator.min.js"></script>
+<link href="/dist/css/tabulator_modern.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	.tabulator-tableHolder {
+  max-height: 100px !important;
+}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
+    white-space: normal;
+}
+
+	.tabulator {
+		font-family: 'Roboto' !important;
+		border: 0;
+	}
+	.tabulator-cell {
+		padding: 10px !important;
+	}
+
+	.tabulator-col-title {
+		padding: 10px;
+		color: black;
+		text-align: center;
+	}
+</style>
+<body>
+	<div id="tabella"></div>
+</body>
+<script type="text/javascript">
+	//create Tabulator on DOM element with id "example-table"
+var table = new Tabulator("#tabella", {
+ 	 height:"600px",// set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+ 	responsiveLayout:"collapse",
+ 	layout:"fitColumns", //fit columns to width of table (optional)
+ 	columns:[ //Define Table Columns
+	 	
+	 	{title:"Città", field:"Città", width:120, formatter:"textarea", frozen:"true"},
+	 	{title:"Stato", field:"Stato", formatter:"textarea"},
+	 	//{title:"Regione", field:"Regione"},//
+	 	{title:"Divieto annunci case intere", field:"Divieto annunci case intere", formatter:"html", align:"center"},
+	 	{title:"Limite Case", field:"Limite Case", formatter:"html", align:"center"},
+	 	{title:"Limite Giorni", field:"Limite Giorni", formatter:"html", align:"center"},
+	 	{title:"Licenza o Permesso", field:"Responsabilità Piattaforme Online", formatter:"html", align:"center"},
+	 	{title:"Fonte", field:"Fonte", formatter:"link"},
+ 	],
+});
+
+//define some sample data
+var tabledata = [
+	
+    {
+      "id" : 1,
+      "Città" : "Anaheim (California)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "note-limite case" : null,
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>Annuale e a pagamento. Viene solo rinnovata a chi ce l'ha già perchè c'è il divieto nuove aperture.</p>",
+      "note-ruolo piattaforma" : null,
+      "Fonte" : "https://www.anaheim.net/DocumentCenter/View/26468/Short-term-rentals-fact-sheet-summer-2019",
+      "note" : "<p>La città, vicina a Disneyland, aveva vietato del tutto le affittanze brevi nel 2016 e deciso la chiusura di quelle esistente. Il divieto totale si è rivelato impraticabile e dal 2019 si è scelta una posizione leggermente più morbida: rimane il divieto di aprire nuove strutture dedite all'9affitto breve, ma quelle esistenti possono continuare ad operare, anche se con regole <b>molto stringenti</b>. Sono circa 280 le affittanze brevi esistenti. </p>Ci sono obblighi, come: <p><ul><li>Notifica ai vicini</li><li>Rispetto di orari di silenzio</li><li>Disponibilità 24h/24 di un addetto che risponda entro 45 minuti alle eventuali proteste/segnalazioni dei vicini</li></ul>"
+    },
+    {
+      "id" : 2,
+      "Città" : "New Orleans (Louisiana)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "Limite Giorni" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "note-limite case" : "<p><b>Licenza residenziale</b>: fino a 3 case nella stessa unità immobiliare (con obbligo di residenza in una di esse)</p><p><b>Licenza commerciale</b>: nessun limite al numero totale, ma non si possono affittare così oltre il 25% delle unità abitative disponibili nello stesso edificio.</p>",
+      "note-limite giorni" : "<p>90 giorni l'anno. Non c'9è limite di giorni se il proprietario vive nella casa affittata o se c'9è una licenza commerciale.</p>",
+      "note-licenza" : "<p>Annuale e a pagamento in base al numero e le caratteristiche delle case </p><p>Esistono 3 tipi di licenze per zone residenziali e 1 commerciale. Quest'9ultima è disponibile solo in alcune zone della città.</p><p>In alcune zone della città non è possibile chiedere nessun tipo di licenza (es. Nel Quartiere Francese), in altre verrà valutato caso per caso.</p>",
+      "note-ruolo piattaforma" : null,
+      "Fonte" : "https://www.nola.gov/short-term-rentals/",
+      "note" : "<p>Sono previsti anche altri obblighi, come la notifica ai vicini e l'obbligo di un'assicurazione per danni a terzi che copra almeno $500.000.</p>"
+    },
+    {
+      "id" : 3,
+      "Città" : "San Francisco (California)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host è residente e in cui vive effettivamente per almeno 275 notti l'9anno.</p>",
+      "note-limite giorni" : "<p>90 giorni l'anno se host non è presente.</p>",
+      "note-licenza" : "<p>Ogni richiesta viene valutata individualmente prima che venga rilasciata la licenza.</p><p>Oltre alla licenza, è anche necessario registrarsi come impresa.</p>",
+      "note-ruolo piattaforma" : "<p>Le piattaforme devono verificare che gli annunci siano registrati, inviare un report mensile sulle transazione, tenere i documenti delle transazioni per 3 anni e consegnarli alle autorità se richiesto.</p>",
+      "Fonte" : "https://sfplanning.org/short-term-rentals",
+      "note" : null
+    },
+    {
+      "id" : 4,
+      "Città" : "New York City (New York)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "note-limite case" : "<p>Se vivi un edificio Multidwelling class A <i>(a multiple dwelling which is generally occupied for permanent residence; 3+ dwellings)</i>, come sono quasi tutti quelli delle zone centrali, è possibile affittare solo stanze all'9interno di una casa, poichè l'9host deve risiedere nell'9abitazione anche durante la presenza degli ospiti.</p><p>Se vivi in una <i>one-and two-family home</i> non c'9è questo limite, ma potrebbe comunque essere illegale fare affittanzebrevi. Devi infatti cambiare il <i>'certificate of occupancy'</i> da <i>'long-term residential'</i> a <i>'transient rental'</i>, cosa che richiede un'ispezione e l'applicazione di regole più stringenti in termini di sicurezza. Inoltre non è detto che il  <i>'transient rental'</i> sia proprio permesso nella zona in cui vivi, in base alle regole di <i>zoning</i>.</p><p> In ogni caso, si possono avere massimo 2 ospiti alla volta.</p><p>Inoltre, Airbnb ha volontariamente applicato la 'One home, one host policy' che impedisce allo stesso host di registrare annunci per case diverse</p>.",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>In alcuni casi può essere richiesta una licenza o permesso speciale per operare come impresa.</p>",
+      "note-ruolo piattaforma" : "<p>Una nuova legge stabilisce che Airbnb è multabile se ha annunci che violano legge multiple-dwellings. Tuttavia Airbnb ha fatto causa, e NYC ha stabilito che attenderà l'esito del processo prima di implementare le sanzioni.</p>",
+      "Fonte" : "https://www1.nyc.gov/site/specialenforcement/stay-in-the-know/information-for-hosts.page",
+      "note" : "<p>Se vivi in appartamento 'rent-stabilized ' non puoi scegliere tu il costo per notte su Airbnb, ma devi calcolarlo in proporzione al stabilized rent. Dopo più infrazioni rischi lo sfratto.</p>"
+    },
+    {
+      "id" : 5,
+      "Città" : "Los Angeles (California)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza primaria, cioè dove vive più di 6 mesi l'anno.</p>",
+      "note-limite giorni" : "<p>120 giorni l'anno, anche se in alcuni casi si può chiedere un'<i>extended home-sharing registration</i>.</p>",
+      "note-licenza" : null,
+      "note-ruolo piattaforma" : "<p>Sia l'host che le piattaforme devono tenere traccia di tutte le transazione e di fornirle alle autorità se richiesto.</p>",
+      "Fonte" : "https://planning.lacity.org/plans-policies/initiatives-policies/home-sharing",
+      "note" : "<p>Case rent-stabilized non possono essere affittate, nemmeno se di tua proprietà</p>"
+    },
+    {
+      "id" : 6,
+      "Città" : "Washington D.C. (District of Columbia)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza primaria. Non si possono nemmeno affittare porzioni separate (es. dependance in giardino) della casa in cui si vive.</p>",
+      "note-limite giorni" : "<p>90 giorni l'anno se host non è presente.</p>",
+      "note-licenza" : "<p>Se affitti solo stanze della casa metre tu sei presente basta registrarsi. Se invece affitti tutta la casa è necessario un <i>endorsement</i> aggiuntivo e una business license.</p><p>Anche le piattaforme devono richiedere una licenza per operare.</p>",
+      "note-ruolo piattaforma" : "<p>La piattaforma deve tenere per tre anni, e eventualmente fornire, i documenti sulle transazioni.</p> Viene inoltre multata per violazioni della legge.</p>",
+      "Fonte" : "https://code.dccouncil.us/dc/council/laws/22-307.html",
+      "note" : null
+    },
+    {
+      "id" : 7,
+      "Città" : "Seattle (Washington)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si possono affittare massimo due case, di cui una deve essere la residenza primaria.</p><p>Non tutti i tipi di case possono essere affittate così: sono escluse le houseboats, waterfront houses, case sugli alberi e altro.</p>",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>Gli host devono registrarsi come impresa.</p><p>Anche le piattaforme online, intermediarie, devono richiedere una licenza.</p><p> Esistono molti tipi di licenze, con obblighi e criteri diversi, in base al tipo di attività che svolgi: se affitti solo stanze nella casa dove hai residenza, se affitti solo la casa intera dove hai residenza, se affitti una casa secondaria (in questo caso ti devi registrare come 'short term rental operator')...</p>",
+      "note-ruolo piattaforma" : "<p>Le piattaforme, oltre a ottenere la licenza, devono tenere la documentazione delle affittanze che avvengono tramite loro e inviare report mensili alle autorità.</p>",
+      "Fonte" : "http://www.seattle.gov/sdci/codes/common-code-questions/short-term-rentals",
+      "note" : "<p>Le agenzie che gestiscono gli annunci online devono comunque registrare la proprietà con i dettagli del proprietario, non quelli dell'agenzia.</p>"
+    },
+    {
+      "id" : 8,
+      "Città" : "Chicago (Illinois)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza.</p><p>Inoltre, non ci possono essere più di tot. unità abitative date in affitto breve nello stesso edificio abitativo:</p><ul><li>Edificio con 2-4 unità abitative: massimo 1 vacation rental</li><li>Edificio con 5+ unità abitative: non più di 1/4 delle unità abitative, e comunque non più di sei in ogni caso, può essere un vacation rental.</li></ul>",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>L'host singolo deve registrare l'appartamento e aspettare che la città valuti se ha i criteri per fare affittanza breve (es. se zoning è residenziale o non ci sono già troppe altre case affittate in forma breve nell'edificio).</p><p>L'host che ha più di un annuncio deve avere licenza speciale da operatore, la 'shared housing unit operator license'.</p><p>Anche le piattaforme devono ottenere licenza per operare. Sono infatti loro che si occuperanno di gestire le registrazioni degli host presso la Città: l'host manda la richiesta di registrazione a, per esempio, Airbnb; Airbnb la inoltra alla Città che valuta se hai i requisiti e poi ti risponde via mail.</p><p>Si può chiedere di registrare/deregistrare il proprio edificio nella lista di case che non si possono dare con affitto breve.</p>",
+      "note-ruolo piattaforma" : "<p>Le piattaforme, oltre a ottenere la licenza per operare, devono tenere la documentazione delle affittanze che avvengono tramite loro e inviare report mensili alle autorità.</p>",
+      "Fonte" : "https://www.chicago.gov/city/en/depts/bacp/supp_info/sharedhousingandaccomodationslicensing.html",
+      "note" : "<p>Sono previsti anche altri obblighi, come l'assicurazione per danni.</p><p>"
+    },
+    {
+      "id" : 9,
+      "Città" : "Boston (Massachusetts)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza primaria o, al massimo, una dependance o spazio abitativo distaccato comunque parte della residenza primaria.</p><p>Affinchè sia residenza primaria, devi averci vissuto per 9 mesi negli ultimi 12 o dimostrare la tua intenzione di continuare a viverci 9 mesi nei prossimi 12.</p>",
+      "note-limite giorni" : null,
+      "note-licenza" : null,
+      "note-ruolo piattaforma" : "<p>Le piattaforme collaborano inviando report mensili e rimuovendo annunci illegali. Segnalano inoltre possibili violazioni agli ispettori.</p>",
+      "Fonte" : "https://www.boston.gov/departments/inspectional-services/short-term-rentals#tips-before-applying",
+      "note" : "<p>Ci sono violazioni, per esempio sul limite del rumore o sulla corretta gestione della spazzatura, che, se ripetute più di tre volte in 6 mesi, ti fanno perdere la licenza."
+    },
+    {
+      "id" : 10,
+      "Città" : "Miami (Florida)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#fbb168'><i class='fas fa-adjust'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza primaria, cioè dove vive più di 6 mesi l'anno.</p>",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>Devi passare una vera e propria ispezione.</p>Se l'edificio è parte di un condominio o un residence, devi ottenere un permesso scritto da parte dell'associazione che lo gestisce.</p><p>Non tutti possono richiedere la licenza: dipende da zoning e dalla possibilità di fare un cambio di land use (passaggio da residential a a lodging). In molte zone di Miami Beach non è permesso.</p><p>Devi richiedere anche una business license.</p><p>Host che pubblicizzano con una licenza falsa possono essere puniti con il carcere.</p>",
+      "note-ruolo piattaforma" : "<p>Inizialmente Airbnb doveva avere un ruolo attivo nel monitoraggio degli annunci illegali ed era soggetta a sanzioni per la loro presenza. Dopo aver fatto causa alla città di Miami, ora la piattaforma deve solo accertarsi che gli annunci registrati abbiano il numero di licenza.</p>",
+      "Fonte" : "https://www.miamidade.gov/building/standards/residential-short-term-vacation-rentals.asp ",
+      "note" : null
+    },
+    {
+      "id" : 11,
+      "Città" : "Santa Monica (California)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui l'host ha la residenza e a patto che almeno una delle persone residenti sia presente. Non sono permessi i 'vacation rentals', ovvero intere unità residenziali non adibite a 'transient occupancy' in cui non è presente l'host.</p>",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>Bisogna ottenere anche una business license.</p>",
+      "note-ruolo piattaforma" : "<p>Le piattaforme sono responsabili per gli annunci illegali pubblicati.</p>",
+      "Fonte" : "https://www.smgov.net/Departments/PCD/Permits/Short-Term-Rental-Home-Share-Ordinance/",
+      "note" : null
+    },
+    {
+      "id" : 12,
+      "Città" : "Las Vegas (Nevada)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#ea6954'><i class='fa fa-times'></i></i></span>",
+      "note-limite case" : "<p>Si può affittare solo la casa in cui il proprietario ha la residenza e a patto che sia presente durante il soggiorno degli ospiti.</p><p>Non possono esserci più di tre stanze da letto nella casa.</p>",
+      "note-limite giorni" : null,
+      "note-licenza" : "<p>Si può ottenere permesso solo in zone residenziali, ma in alcune è espressamente proibita.Inoltre devono esserci almeno 200 metri tra un short term rental e un altro.</p>Un'ispezione viene fatta prima del rilascio della licenza.</p><p>Bisogna ottenere una business license.</p>",
+      "note-ruolo piattaforma" : null,
+      "Fonte" : "https://www.lasvegasnevada.gov/Business/Planning-Zoning/Code-Enforcement/Short-Term-Rentals",
+      "note" : null
+    },
+    {
+      "id" : 13,
+      "Città" : "Irvine (California)",
+      "Stato" : "Stati Uniti",
+      "Regione" : "America del Nord",
+      "Divieto annunci case intere" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Case" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Limite Giorni" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Richiesta Licenza/Permesso" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "Responsabilità Piattaforme Online" : "<span style='color:#02db82'><i class='fa fa-check'></i></span>",
+      "note-limite case" : "<p>Sono proibiti tutti i short term rental in zone definite residenziali.</p>",
+      "note-limite giorni" : "<p>Sono proibiti tutti i short term rental in zone definite residenziali.</p>",
+      "note-licenza" : "<p>Sono proibiti tutti i short term rental in zone definite residenziali.</p>",
+      "note-ruolo piattaforma" : "<p>Le piattaforme sono responsabili per gli annunci illegali pubblicati.</p>",
+      "Fonte" : "https://www.cityofirvine.org/code-enforcement-community-development/short-term-rentals",
+      "note" : "<p>C'è un divieto totale sulle affittanze brevi, anche se ci sono proteste e petizioni per sollevarlo.</p>"
+    }
+];
+
+//load sample data into the table
+table.setData(tabledata);
+table.redraw(true);
+</script>
+</html>
