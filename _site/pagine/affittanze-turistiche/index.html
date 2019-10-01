@@ -17,18 +17,18 @@
   <meta name="twitter:title" content="Gli squilibri del turismo veneziano" />
   <meta name="twitter:description" content="Strumenti interattivi per aiutarti ad esplorare i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. Troverai numeri..." />
   
-<meta name="twitter:image" content="http://ocio-venezia.it/pagine/affittanze-turistiche/" />
+<meta name="twitter:image" content="http://localhost:4000/pagine/affittanze-turistiche/" />
 
 
 
 <!-- Open Graph -->
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://ocio-venezia.it/pagine/affittanze-turistiche/" />
+  <meta property="og:url" content="http://localhost:4000/pagine/affittanze-turistiche/" />
   <meta property="og:title" content="Gli squilibri del turismo veneziano" />
   <meta property="og:description" content="Strumenti interattivi per aiutarti ad esplorare i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. Troverai numeri..." />
   
-   <meta property="og:image" content="http://ocio-venezia.it/pagine/affittanze-turistiche/" />
+   <meta property="og:image" content="http://localhost:4000/pagine/affittanze-turistiche/" />
   
   
 
@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     
 <!--- RSS -->
-<link type="application/atom+xml" rel="alternate" href="http://ocio-venezia.it/feed.xml" title="OCIO" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="OCIO" />
 </head>
 
 <nav>
@@ -207,7 +207,12 @@
 
 
   <h3>⁕ 3. Professionalizzazione del settore e concentrazione delle risorse</h3>
-  <p><em>Ti consigliamo di esplorare il grafico seguente in <a href="/viz/airbnb/grafo" target="_blanck">una pagina tutta sua</a>.</em></p>
+  <p>Negli annunci su Airbnb, <span style="font-weight: 700;">1 host su 5</span> (il 22% degli host) gestisce molteplici annunci per un appartamento. Questo 22% gestisce quasi il 62% degli annunci, ovvero <span style="font-weight:700">2 annunci su 3</span>. <br><span style="font-weight:700">Il 5%</span> più “accentratore” gestisce addirittura il <span style="font-weight:700">33% degli annunci</span><sup style="font-size: 0.7em">1</sup>.</p>
+<p>Questo dato è inoltre una probabile sottostima, poichè non sono stati conteggiati i diversi casi in cui un host apre un profilo diverso per ogni annuncio. Alcuni di questi sono evidenti dal fatto che alcune descrizioni di host diversi o descrizioni di appartamenti di host diversi sono pressoché identiche.</p>
+        <img src="/img/multihost.png" style="border:none; max-width: 100%">
+  
+  <p style="font-size: 0.8em;"><b><sup>1</sup></b> <em>Sono stati considerati solo gli annunci degli appartamenti interi, per evitare che la stima fosse inflazionata dal fatto che un host può mettere più annunci per la stessa casa, esempio: 1 come appartamento intero da quattro letti, 2 come due stanze singole da due letti,4 come quattro posti letto</em><br><br><b>Fonte dati</b>: Elaborazione OCIO su dati <a href="http://insideairbnb.com" target="_blank">InsideAirbnb</a> del 07 Agosto 2019.</p>
+  <p>Nel grafico qui sotto puoi esplorare le connessioni tra host e annunci sulla piattaforma Airbnb, grazie ai dati forniti da <a href="http://insideairbnb.com" target="_blank">InsideAirbnb</a> del 07 Agosto 2019.<br><em>Ti consigliamo di esplorare il grafico seguente in <a href="/viz/airbnb/grafo" target="_blanck">una pagina tutta sua</a>.</em></p>
 <iframe src="/viz/airbnb/grafo/index.html" style="width:100%;" height="900px" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <div class="content"><h2>Fonti</h2>
@@ -216,6 +221,7 @@
   <li><b>Dati sulla popolazione 1997 - 2018</b>: Comune di Venezia - Servizio Statistica e ricerca su dati Anagrafe comunale</li>
   <li><b>Dati aggiornati quotidianamente sulle strutture turistiche a Venezia</b>: <a href="http://geoportale.comune.venezia.it/Html5Viewer/index.html?viewer=IDS.IDS&LOCALE=IT-it">Portale GeoIDS</a></li>
   <li><b>Dati aggiornati quotidianamente sulla popolazione a Venezia</b>: <a href="https://portale.comune.venezia.it/millefoglie/statistiche/home">Stime giornaliere Anagrafe Comune di Venezia</a></li>
+  <li><b>Dati sugli annunci presenti su Airbnb</b>: Elaborazione OCIO su dati di <a href="http://insideairbnb.com/">Inside Airbnb</a></li>
   <li><b>Basi dati geografici</b>: <a href="http://dati.venezia.it/?q=content/cartografia-di-base">Open Data Venezia, Cartografia di base</a></li>
 <li><b>Corrispondenze tra isolato -> località -> quartiere -> municipalità -> gruppo</b>: <a href="http://geotributi.comune.venezia.it/">Portale GeoTributi</a></li>
 </ul></div>
