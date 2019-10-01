@@ -79,10 +79,10 @@ function styleTOT(feature) {
 
 // Add GEOJSON
 
-locazioni = L.geoJson(sezioni, {style: styleLOC, onEachFeature: onEachFeature}).addTo(map);
-tutto = L.geoJson(sezioni, {style: styleTOT, onEachFeature: onEachFeature})
+locazioni = L.geoJson(sezioni, {style: styleLOC, onEachFeature: onEachFeature});
+tutto = L.geoJson(sezioni, {style: styleTOT, onEachFeature: onEachFeature}).addTo(map);
 
-var basemapsObj = { 'solo locazioni turistiche':locazioni , 'tutte le strutture ricettive': tutto };
+var basemapsObj = {'tutte le strutture ricettive': tutto, 'solo locazioni turistiche':locazioni };
 
 // Add listeners
 
