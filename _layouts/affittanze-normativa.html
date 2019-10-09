@@ -1,0 +1,22 @@
+{% include head.html %}
+
+{% include nav.html %}
+<body>
+  <header>
+  </header>   
+  <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src={{page.header-image}}><p style="font-size: 0.7em; text-align: center; margin-top: 0px;">{{page.foto-titolo}} <a href="{{page.autore-foto-link}}">{{page.autore-foto}}</a></div>
+    <main>	
+      <h1 style="text-align:center; margin-bottom: 20px; ">{{ page.title}}</h1>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.dati-data | date: "%d/%m/%Y"}}</p>
+      <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p></div>
+     
+
+<div class="content">
+  <h2><span style="font-weight:700">※ Normativa</span>: Cosa dicono le varie istituzioni su Airbnb e locazioni turistiche</h2>
+<h3>⁕ Normativa locale, nazionale e internazionale di riferimento</h3>
+<iframe style="min-height: 700px" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1S0yBeNk_qBUeDmJvaJmRGWr5sUZUpDrgVBZuZVDmoHM&font=OpenSans-GentiumBook&lang=en&initial_zoom=2' width='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+ <h3>⁕ Contesto internazionale</h3>
+ <div class="fullwidth-body"><iframe src="/viz/tabella-str/index.html" style="width:100%;height: 600px" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+</div>
+</main>
+{% include footer.html %}
