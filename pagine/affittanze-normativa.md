@@ -137,12 +137,17 @@ Questo significa che: il regolamento deve essere stato approvato all'unanimità 
 
 Si può dunque affermare che, al momento, le locazioni turistiche a Venezia sono sottoposte esclusivamente ai seguenti adempimenti:
 
-- **Adempimenti anagrafici**: comunicare il periodo per il quale si intende locare l'alloggio e il numero di posti letto
+
+- **Adempimenti anagrafici**: comunicare il periodo per il quale si intende locare l'alloggio e il numero di posti letto. A ciascun alloggio registrato in anagrafe è assegnato automaticamente dalla procedura telematica un codice identificativo
+- **Adempimenti informativi**: pubblicizzare il proprio alloggio assieme al numero identificativo assegnato, sia nelle piattaforme online che esponendolo su una targa affissa in modo ben visibile all’ingresso esterno dell’edificio che comprende l’alloggio.
 - **Adempimenti statistici**: comunicare gli arrivi e presenze degli ospiti, inclusa la loro provenienza.
 - **Adempimenti tributari**: riscuotere e versare l'imposta di soggiorno nelle, nonché registrare la struttura presso il portale comunale dell'imposta di soggiorno e comunicare i dati relativi. 
 - **Adempimenti fiscali**: inserire il reddito frutto di locazione turistica in sede di dichiarazione di redditi, dove si può optare per il regime agevolato della cedolare secca al 21%.
 - **Adempimenti di pubblica sicurezza**: registrazione al Portale della Questura e comunicazione delle generalità degli alloggiati.
 
+### **Panoramica della normativa principale di riferimento**
+
+<iframe style="min-height: 700px" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1S0yBeNk_qBUeDmJvaJmRGWr5sUZUpDrgVBZuZVDmoHM&font=OpenSans-GentiumBook&lang=en&initial_zoom=2' width='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
 ## ※ Piattaforme online per la "sharing economy"
 {:id="sharing-economy}
