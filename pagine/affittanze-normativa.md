@@ -26,6 +26,7 @@ dati-data : "2019-10-07"
 
 - [Sharing Economy](#sharing-intro)
 - [Airbnb](#airbnb)
+- [Regolamentazione internazionale](#airbnb-law)
 {: style="font-size:0.8em;margin-top:0px;"}
 
 <hr>
@@ -126,7 +127,7 @@ Le locazioni turistiche dunque, pur svolgendo di fatto una forma di ricettività
 
 - non sono soggette a **classificazione** presso la Regione e quindi sono esenti da controlli sulla qualità;
 - non devono richiedere un **cambio di destinazione** d’uso dell’unità abitativa (da residenziale a turistica) in quanto per definizioni sono immobili ad uso residenziale e non vi si svolgono attività turistiche;
-- non necessitano presentazione di una **SCIAéé (Segnalazione Certificata Inizio Attività) al Comune — come è invece necessario per l’esercizio di attività ricettiva complementare ai sensi dell’art. 19 della legge n. 241/1990;
+- non necessitano presentazione di una **SCIA** (Segnalazione Certificata Inizio Attività) al Comune — come è invece necessario per l’esercizio di attività ricettiva complementare ai sensi dell’art. 19 della legge n. 241/1990;
 - non rientrano, per il Comune di Venezia, nelle limitazioni previste dalla [delibera di Consiglio Comunale n. 198 del 31/05/2017](https://portale.comune.venezia.it/utilities/delibereconsiglio/files/2017/DC_2017_25_51592_DC_2017_25_Allegato_1.pdf) che, per la tutela dell’integrità fisica, funzionale e sociale della Città Antica, sancisce il **divieto di nuovi insediamenti o ampliamenti di attività ricettive alberghiere e complementari** (salvo deroghe per l’interesse pubblico);
 - non prevedono un **limite temporale**, imposto alla precedente categoria di unità abitative ammobiliate non classificate ([Ex-UANC](http://www.regione.veneto.it/web/turismo/ex-UANC)), ora assorbite dalle locazioni turistiche, [che impediva la stipula di contratti di locazione inferiori ai sette giorni](https://www.comune.venezia.it/sites/comune.venezia.it/files/page/files/STRUTTURE%20COMPLEMENTARI%20ED%20EXTRALBERGHIERE_1.pdf);
 - non prevedono **limiti al numero di camere o posti letto** superato il quale la struttura vada intesa come alberghiera, mentre per le attività ricettive complementari vale il limite di tre stanze (per i [Bed&Breakfast](https://www.regione.veneto.it/web/turismo/beb1)) o sei stanze (per gli [alloggi turistici](https://www.regione.veneto.it/web/turismo/alloggi-turistici)) con un massimo quattro posti letto ciascuna, oltre le quali si configura l’albergo;
@@ -199,10 +200,13 @@ Le analisi riportano le conseguenze dovute alla presenza del colosso americano: 
 
 Sebbene Airbnb sia diventato il simbolo delle affittanze brevi, ricordiamo che le due cose non necessariamente coincidono:
 
-- Non tutti gli annunci su AIrbnb sono locazioni turistiche. Vi si possono trovare annunci anche per attività ricettive tradizionali come Bed & Breakfast o Affittacamere.
+- Non tutti gli annunci su Airbnb sono locazioni turistiche. Vi si possono trovare annunci anche per attività ricettive tradizionali come Bed & Breakfast o Affittacamere.
 - Airbnb non è l’unico portale ad occuparsi di questo segmento di mercato. Booking, HomeAway ed altri hanno un funzionamento simile.
 
 
+### &nbsp; &#9755; Regolamentazione internazionale
+{:id="airbnin-law}
+{: style="font-size:1.3em; background-color:black;color:white;font-weight:800"}
 
-
+In arrivo!
 
