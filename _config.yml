@@ -14,3 +14,4 @@ logo: /img/logo.png
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
