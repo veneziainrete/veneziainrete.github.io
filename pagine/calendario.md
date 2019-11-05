@@ -8,9 +8,6 @@ slug: calendario
 ## Prossimi appuntamenti
 
 
-
--  **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/748636502252723/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 05/11/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
-
 - **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/556822688389486/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 03/12/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 ## Appuntamenti passati
@@ -18,6 +15,7 @@ slug: calendario
 
 <img src="/img/cura2-mappa-color.png" style="max-width:100%">
 
+-  **[Incontro mensile di OCIO, osservatorio civico sulla casa e sulla residenza](https://www.facebook.com/events/748636502252723/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 05/11/2019 • <i class="fas fa-clock"></i>  18:00 - 20:00 • <i class="fas fa-map-signs"></i> Società di Mutuo Soccorso Carpentieri e Calafati, CASTELLO 450
 
 - **[Presentazione di "Airbnb città merce" con Sarah Gainsforth](https://www.facebook.com/events/414218745945258/)**{: style="color:#74140C"} <br>   <i class="fas fa-calendar"></i> 27/10/2019 • <i class="fas fa-clock"></i>  17:00 - 19:30 • <i class="fas fa-map-signs"></i> Spazio About, Lista dei Bari 1165
 

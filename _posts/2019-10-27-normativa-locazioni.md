@@ -1,6 +1,6 @@
 ---
 layout : "post"
-title : "FAQ: Affittanze turistiche e Airbnb, normativa e terminiologia"
+title : "FAQ: Affittanze turistiche, normativa e terminiologia"
 categories : "articoli"
 autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"

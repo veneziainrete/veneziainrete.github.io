@@ -5,7 +5,7 @@ data: 2019-05-12
 autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"
 header-image: "/img/cura1.jpg"
-categories: 'articoli'
+categories: 'dossier'
 excerpt_separator: <!--more-->
 
 ---

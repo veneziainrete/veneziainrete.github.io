@@ -167,7 +167,7 @@ span.number-descr {
 }
 
 img.pitch {
-	max-width: 70%;
+	max-width: 30%;
 	margin-top: 40px;
 }
 
@@ -281,7 +281,6 @@ h1,h2,h3,h4 {
 div.pitch {
 	max-width: 70%;
 	margin:0 auto;
-	font-size: 2em;
 	text-align: left;
 	padding-bottom: 1.3em;
 	border-bottom: 5px solid;
@@ -295,15 +294,14 @@ div.home-info {
 	font-size: 1em;
 	text-align: left;
 	padding-bottom: 20px;
-	padding-top: 3em;
+	padding-top: 1.5em;
 }
 
 h1.pitch {
-	font-size: 2.5em;
+	font-size: 2em;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 	padding-bottom: 0px;
-	font-family: 'Playfair Display', serif;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	-webkit-hyphens: auto;
@@ -449,7 +447,7 @@ p.iscriviti {
 .fullwidth h2 {font-size: 16px}
 .fullwidth img {max-width: 100%; display: block; margin:auto;}
 .column4 { float: left; width: 20%; margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 2em}
-.column3 { float: left; width: 33%}
+.column3 { float: left; width: 31%; margin-right: 2%}
 .column2 { float: left; width: 48%}
 div.column2:nth-child(2) {float: right;}
 

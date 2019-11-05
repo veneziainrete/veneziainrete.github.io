@@ -8,7 +8,7 @@ header-image: "/img/cura-castello.jpg"
 foto-titolo: "Foto dell'evento per gentile concessione del fotografo "
 autore-foto: "Philippe Apatie"
 autore-foto-link : "https://www.facebook.com/philippe.apatie"
-categories: 'articoli'
+categories: 'dossier'
 excerpt_separator: <!--more-->
 
 ---
