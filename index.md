@@ -1,7 +1,8 @@
 ---
 layout: home
 title: Home
-pitch: " a presto!"
+pagination:
+  enabled: true
 ---
 
 <div style="background-color:#e0e3f0;padding:1em; padding-left:3em;padding-right:3em; margin-top:1em;">

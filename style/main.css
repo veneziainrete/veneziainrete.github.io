@@ -37,6 +37,7 @@ img {
 	padding-bottom: 15px;
 }
 
+.home-columns {max-width: 60%; margin: 0 auto}
 
 /* Blockquotes */
 
@@ -196,7 +197,7 @@ div.content {
 	padding: 10px;
 	text-align: left;
 }
-
+.home-columns {min-width: 100%; padding-left: 3px;padding-right: 3px;}
 nav {
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -639,10 +640,12 @@ button.newsletter:hover {
 
 }
 
+.highlight {padding: 0.3em; font-size: 0.8em}
+
 
 div.pitch {
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 1em;
 	min-width: 100%;
 }
 

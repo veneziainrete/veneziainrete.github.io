@@ -12,6 +12,8 @@ vimeo:
 url: http://ocio-venezia.it
 logo: /img/logo.png
 
+paginate: 4
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
