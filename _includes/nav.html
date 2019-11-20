@@ -11,13 +11,9 @@
   </div>
 
     <div class="dropdown">
-      <button class="dropbtn {% if page.slug == 'incontri' or page.slug == 'dati' or page.slug == 'articoli' %} current {% endif %}">Pubblicazioni</button>
-      <div class="dropdown-content">
-        <a class="dropbtn {% if page.slug == 'articoli' %} current {% endif %}" href="/pagine/articoli">Analisi e Dossier</a>
-         <a class="dropbtn {% if page.slug == 'incontri' %} current {% endif %}" href="/pagine/incontri"> Materiale Incontri</a>
-        <a class="dropbtn {% if page.slug == 'dati' %} current {% endif %}" href="/pagine/dati">Dati</a>
-     </div>
+  <a class="dropbtn {% if page.slug == 'pubblicazioni' %} current {% endif %}" href="/pagine/pubblicazioni">Pubblicazioni</a>
   </div>
+
 
   <div class="dropdown">
   <a class="dropbtn {% if page.slug == 'calendario' %} current {% endif %}" href="/pagine/calendario">Appuntamenti</a>
@@ -28,17 +24,17 @@
   </div>
 
 
-
+<!--
   <div class="dropdown">
       <button class="dropbtn {% if page.slug == 'rassegna-segnala' %} current {% endif %}">Rassegna Stampa</button>
       <div class="dropdown-content">
-	      <!-- <a class="dropbtn {% if page.slug == 'rassegna' %} current {% endif %}" href="/pagine/rassegna">Rassegna Stampa</a> -->
+	      <a class="dropbtn {% if page.slug == 'rassegna' %} current {% endif %}" href="/pagine/rassegna">Rassegna Stampa</a>
 	       <a class="dropbtn {% if page.slug == 'rassegna-segnala' %} current {% endif %}" href="/pagine/rassegna-segnala">Segnala</a>
-	        <!--<a class="dropbtn {% if page.slug == 'rassegna-archivio' %} current {% endif %}" href="/pagine/rassegna-archivio">Archivio</a> -->
+	        <a class="dropbtn {% if page.slug == 'rassegna-archivio' %} current {% endif %}" href="/pagine/rassegna-archivio">Archivio</a>
      </div>
   </div>
+   -->
   
-   <!--<a class="dropbtn {% if page.slug == 'comunicati' %} current {% endif %}" href="/pagine/comunicati">Comunicati</a> -->
 </div>
 <div class="clear"></div>
 </nav>
