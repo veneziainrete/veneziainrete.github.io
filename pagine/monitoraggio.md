@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Le nostre analisi e i nostri monitoraggi'
+title: 'I nostri monitoraggi sui dati'
 slug: monitoraggio
 redirect_from:
 - /monitoraggio

@@ -19,7 +19,7 @@
       
         {% elsif page.slug == 'pubblicazioni'%}
         {% for post in site.posts %}
-        {% if post.categories contains "articoli" or post.categories contains "dossier" or post.categories contains "incontri" %}
+        {% if post.categories contains "articoli" or post.categories contains "dossier" or post.categories contains "incontri" or post.categories contains "papers" %}
         <div style="margin-bottom: 50px">
         <img src="{{post.header-image}}" style="max-width: 100%">
         <h1 class="post-title" style="margin-top: 0px;"><a href="{{post.url}}">{{post.title}}</a></h1>
