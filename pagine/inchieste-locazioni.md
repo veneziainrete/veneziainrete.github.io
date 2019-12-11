@@ -1,5 +1,5 @@
 ---
-layout : "post"
+layout : "default"
 title : "INCHIESTA:<br>Venezia in affitto (breve)"
 categories : "inchiesta"
 header-img : ""
