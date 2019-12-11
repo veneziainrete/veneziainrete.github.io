@@ -1,9 +1,11 @@
 ---
-layout : "default"
+layout : "post"
 title : "INCHIESTA:<br>Venezia in affitto (breve)"
 categories : "inchiesta"
-header-img : ""
-data : "2019-12-10"
+header-image : "/img/inchiesta-locazioni-header.png"
+date : "2019-12-10"
+autore: 'OCIO'
+link-autore: "https://ocio-venezia.it"
 excerpt_separator: <!--more-->
 ---
 
@@ -13,10 +15,9 @@ excerpt_separator: <!--more-->
 
 Se dunque i problemi irrisolti sono ancora tutti là, come tutti sappiamo gli ultimi anni ce ne hanno presentati di nuovi: non solo Venezia è ancora in affitto (per chi può permettersela), ma questo affitto è sempre meno destinato alla residenza e sempre più cucito a misura di turista. 
 
-Se per alcuni questa nuova forma d’impresa – pardon, di libero godimento della proprietà, che d’impresa la maggior parte di quelli che affittano sulle piattaforme non vuol proprio sentir parlare – rappresenterebbe un modo per “aiutare la residenza”, a noi pare invece che si tratti di un’attività economica che rischia di aggravare molti dei problemi del mercato immobiliare della nostra città: ne abbiamo già [parlato qui](/articoli/2019/12/04/abbav/).
+Stiamo parlando delle affittanze turistiche, ovvero dell'affitto temporaneo di stanze e appartamenti in modalità cosiddetta "non imprenditoriale". Questo della modalità "non imprenditoriale", che rappresenterebbe un modo per "aiutare la residenza", è un argomento diffuso con ostinazione dalle piattaforme che organizzano questa attività (come ad esempio Airbnb). Analizzando il fenomeno dal punto di vista quantitativo, però, siamo pervenuti a una conclusione più articolata: la parte del leone in termini di numero di posti letto destinati alle affittanze formalmente "non imprenditoriali" la fanno soggetti che possiedono quote consistenti di patrimonio immobiliare e spesso fanno capo a società e imprese (ne abbiamo già [parlato qui](https://ocio-venezia.it/articoli/2019/12/04/abbav/)). È evidente che questo che può sembrare un dettaglio, in realtà rischi di rappresentare un forte incentivo all'aggravarsi dei problemi del mercato immobiliare e quindi della residenzialità nella nostra città.
 
-Dopo aver raccolto alcuni dati utili ad avere [una visione d’insieme sullo stato della città](/pagine/affittanze-dati/) e aver provato a fare un po’ di luce anche sull’intricata [normativa che regola le affittanze](/articoli/2019/10/27/normativa-locazioni/), OCIO ha deciso che è il caso di andare ancora più a fondo. Abbiamo quindi cominciato a domandarci se, ora che i numeri del fenomeno sono evidenti e ben documentati, non fosse il caso di raccontare le storie delle persone. Quelle che leggerete non saranno le testimonianze da copertina delle “giovani coppie che con Airbnb pagano il mutuo”, nè quelle da campagna marketing della “famiglia che grazie alla locazione turistica della seconda casa può vivere a Venezia”. Saranno storie che parleranno dei protagonisti che hanno fatto della locazione turistica il loro strumento per aggirare regolamentazioni ed estrarre senza freni profitti dalla nostra città. 
-
+Dopo aver raccolto alcuni dati utili ad avere [una visione d’insieme sullo stato della città](/pagine/affittanze-dati/) e aver provato a fare un po’ di luce anche sull’intricata [normativa che regola le affittanze](/articoli/2019/10/27/normativa-locazioni/), come Osservatorio abbiamo deciso che è il caso di andare ancora più a fondo. Abbiamo quindi cominciato a domandarci se, ora che i numeri del fenomeno sono evidenti e ben documentati, non fosse il caso di raccontare le storie di questi soggetti in carne ed ossa. Quelle che leggerete non saranno allora le testimonianze già note delle “*giovani coppie che con Airbnb pagano il mutuo*”, nè quelle da campagna marketing della “*famiglia che grazie alla locazione turistica della seconda casa può vivere a Venezia*”. Saranno le storie dei protagonisti che hanno fatto della locazione turistica il loro strumento per aggirare regolamentazioni e utilizzare le abitazioni della nostra città per smisurati profitti, mettendo in crisi la tenuta sociale e comunitaria di interi quartieri.
 
 Nel corso delle prossime settimane pubblicheremo queste piccole inchieste, che nonostante la loro scala ridotta, pensiamo raccontino un pezzo importante di una storia più generale: la storia di come si vive e abita oggi nella nostra città.
 
