@@ -187,36 +187,7 @@ div.logo svg > path {
 fill:white !important;
 }
 
-@media screen and (max-width: 630px) {
-div.logo {
-	max-width: 40%; 
-	display: block;"
-}
 
-div.content {
-	padding: 10px;
-	text-align: left;
-}
-.home-columns {min-width: 100%; padding-left: 3px;padding-right: 3px;}
-nav {
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-}
-
-@media screen and (max-width: 600px) {
-
-	img.pitch {
-	max-width: 100%;
-	margin-top: 100px;
-}
-
-#menu-items {
-	text-align: left;
-}
-
-
-    }
 
 
 code {
@@ -248,16 +219,38 @@ a:hover {
   position: relative;
 }
 
+.indice-inchiesta {
+	background-color:#e0e3f0;
+	padding:1em; 
+	padding-left:3em;
+	padding-right:3em; 
+	margin-top:1em;"
+}
+
+.inchiesta-card {
+max-width:80%; 
+margin:auto;
+  position: relative;
+}
+
+.inchiesta-title { 
+	position: absolute;
+bottom: 0;
+left: 0;
+	background-color: black;
+	padding: 1.5em;
+	color:white;
+	opacity:0.6;
+	margin-top: 0px; 
+	font-size: 1em;
+	font-weight:0.7em}
+
 .text-block {
   background-color: black;
   color: white;
   margin-bottom: 10px;
 }
 
-a.monitoraggio-title {
-	color: white !important;
-
-}
 
 
 b,strong {
@@ -618,6 +611,44 @@ button.newsletter:hover {
     padding: 1em;
 } 
 
+
+@media screen and (max-width: 630px) {
+div.logo {
+	max-width: 40%; 
+	display: block;"
+}
+
+div.content {
+	padding: 10px;
+	text-align: left;
+}
+.home-columns {min-width: 100%; padding-left: 3px;padding-right: 3px;}
+nav {
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.indice-inchiesta {
+padding-left:0em;
+padding-right:0em;
+}
+
+.inchiesta-card 
+{ width: 100% }
+}
+
+@media screen and (max-width: 600px) {
+
+	img.pitch {
+	max-width: 100%;
+	margin-top: 100px;
+}
+
+#menu-items {
+	text-align: left;
+}
+
+    }
 
 @media screen and (max-width: 800px) {
     .column4 {

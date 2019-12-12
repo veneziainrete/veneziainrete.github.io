@@ -20,17 +20,13 @@ Dopo aver raccolto alcuni dati utili ad avere [una visione d’insieme sullo sta
 
 Nel corso delle prossime settimane pubblicheremo queste piccole inchieste che, nonostante la loro scala ridotta, pensiamo raccontino un pezzo importante di una storia più generale: la storia di come si vive e abita oggi nella nostra città.
 
-<div style="background-color:#e0e3f0;padding:1em; padding-left:3em;padding-right:3em; margin-top:1em;">
+<div class="indice-inchiesta">
 	<span style="font-weight:700;color:#74140C; font-size:1.8em; display:block; margin-top: 1.2em; text-align:center">👀 Indice delle inchieste</span><br>
-	<div class="highlight" style="border-bottom: 2px solid;text-align:center; margin-bottom:3em; padding-bottom:2em">
-		<div class="card-container" style="max-width:80%; margin:auto">
+		<div class="inchiesta-card">
      	 <img src="/img/corte-colonne-header.png" class="header-img-blog centered">
-     	 <div class="text-block" style="position:absolute; bottom:0;opacity:0.6">
-          <h1 class="post-title" style="margin-top: 0px; font-weight:0.7em"><a href="{{page.url}}" class="monitoraggio-title">Castello e Corte delle Colonne: quell'indotto che...prende il volo per l'Atlantico.</a><span style="font-size: 0.4em; color:white; font-style:italic"><em>     In arrivo a breve!</em>  </span></h1> 
+          <h1 class="inchiesta-title"><a href="{{page.url}}">Castello e Corte delle Colonne: quell'indotto che...prende il volo per l'Atlantico.</a><span style="font-size: 0.4em; color:white; font-style:italic"><em>     In arrivo a breve!</em>  </span></h1> 
         </div>
       </div>  
-        </div>
-        </div>
 
 ## **Vuoi segnalarci qualcosa?**
 Se hai qualche informazione che pensi meriti di essere investigata e raccontata, non esitare a scriverci: [ocioattivisti@googlegroups.com](mailto:ocioattivisti@googlegroups.com)
