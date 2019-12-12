@@ -249,10 +249,8 @@ a:hover {
 }
 
 .text-block {
-  position: absolute;
   background-color: black;
   color: white;
-  opacity: 0.6;
   margin-bottom: 10px;
 }
 
@@ -614,7 +612,6 @@ button.newsletter:hover {
 
 /* Bottom left text */
 .text-block {
-    position: absolute;
     bottom: 0px;
     background-color: black;
     color: white;

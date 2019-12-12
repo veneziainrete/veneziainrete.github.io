@@ -7,8 +7,8 @@
   <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src={{page.header-image}}><p style="font-size: 0.7em; text-align: center; margin-top: 0px;">{{page.foto-titolo}} <a href="{{page.autore-foto-link}}">{{page.autore-foto}}</a></div>
     <main>	
       <h1 style="text-align:center; margin-bottom: 20px; ">{{ page.title}}</h1>
-      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.dati-data | date: "%d/%m/%Y"}}</p>
-      <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p></div>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.data | date: "%d/%m/%Y"}}</p>
+      <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.data}}</em></p></div>
       <div class="switch-field">
         <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
         <label for="radio-three">Venezia Sestieri + Giudecca e Sacca Fisola</label>
