@@ -36,20 +36,16 @@
         {% for page in site.pages %}
         {% if page.categories contains "monitoraggio" %}
         
-        <div class="column2">
-        	<div class="card-container">
- 			<img src="{{page.header-img-square}}" class="header-img-blog centered">
- 			<div class="text-block">
-        	<h1 class="post-title" style="margin-top: 0px;"><a href="{{page.url}}" class="monitoraggio-title">{{page.title}}</a></h1>
-        </div>
-        </div>
-        <p class="post-details"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.data | date: "%d/%m/%Y"}}</p>
+<div style="margin-bottom: 50px">
+        <img src="{{page.header-img}}" style="max-width: 100%">
+        <h1 class="post-title" style="margin-top: 0px;"><a href="{{page.url}}">{{page.title}}</a></h1>
+        <p class="post-details"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.date | date: "%d/%m/%Y"}} • <b>Autore</b>: <a href="{{post.link-autore}}">{{page.autore}}</a></p>
         <p class="post-summary">{{page.excerpt | remove: '<p>' | remove: '</p>'}}  <span style="font-weight: 900"> <a href="{{page.url}}"><i class="fas fa-caret-square-right" style="padding-right: 10px; padding-left: 10px"></i>Leggi tutto</a></span></p>
-    </div>
+        <hr>
+      </div>
         {% endif %} 
         {% endfor %}
         </div>
-        <div class="clear"></div>
       {% endif %} 
       
       </div>
