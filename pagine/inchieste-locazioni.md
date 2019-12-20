@@ -24,7 +24,7 @@ Nel corso delle prossime settimane pubblicheremo queste piccole inchieste che, n
 	<span style="font-weight:700;color:#74140C; font-size:1.8em; display:block; margin-top: 1.2em; text-align:center">👀 Indice delle inchieste</span><br>
 		<div class="inchiesta-card">
      	 <img src="/img/corte-colonne-header.png" class="header-img-blog centered">
-          <h1 class="inchiesta-title"><a href="{{page.url}}">Castello e Corte delle Colonne: quell'indotto che...prende il volo per l'Atlantico.</a><span style="font-size: 0.4em; color:white; font-style:italic"><em>     In arrivo a breve!</em>  </span></h1> 
+          <h1 class="inchiesta-title"><a href="https://medium.com/ocio-venezia/castello-e-corte-delle-colonne-quellindotto-veneziano-che-prende-il-volo-per-l-atlantico-847b50c7e3f0" target:"_blank">Castello e Corte delle Colonne: quell'indotto che...prende il volo per l'Atlantico.</a><span style="font-size: 0.4em; color:white; font-style:italic"><em>     In arrivo a breve!</em>  </span></h1> 
         </div>
       </div>  
 
