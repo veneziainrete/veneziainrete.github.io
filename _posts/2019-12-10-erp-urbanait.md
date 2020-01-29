@@ -7,6 +7,8 @@ link-autore: "https://ocio-venezia.it"
 header-image : "/img/urbanait-header.png"
 excerpt_separator: <!--more-->
 data : "2019-12-10"
+tags: ['erp']
+categories: ['analisi', 'ERP', 'papers']
 
 ---
 OCIO, attraverso la penna di Patrizia Veclani e Remi Wacogne, ha contribuito al "*[Rapporto sulle città 2019](https://www.urbanit.it/rivista-online/)*" di Urban@it (Centro nazionale di studi per le politiche urbane), con un'analisi dell'impatto della nuova legge regionale sull'edilizia residenziale pubblica in Veneto <!--more-->

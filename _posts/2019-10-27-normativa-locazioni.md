@@ -7,6 +7,8 @@ link-autore: "https://ocio-venezia.it"
 header-image : "/img/normativa-locazioni-header.jpg"
 excerpt_separator: <!--more-->
 data : "2019-10-07"
+tags: ['locazioni']
+categories: ['FAQ', 'locazioni turistiche', 'airbnb']
 
 ---
 

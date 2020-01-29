@@ -7,6 +7,9 @@ link-autore: ""
 header-image: "/img/inchiesta-colonne-header.png"
 categories: 'articoli'
 excerpt_separator: <!--more-->
+tags: ['locazioni']
+categories: ['inchiesta', 'locazioni turistiche', 'edilizia convenzionata','ERP']
+
 
 ---
 Quest’articolo fa parte della nostra inchiesta [Venezia in affitto (breve)](/pagine/inchieste-locazioni/). Quelle che leggerete non saranno allora le testimonianze già note delle “giovani coppie che con Airbnb pagano il mutuo”, né quelle da campagna marketing della “famiglia che grazie alla locazione turistica della seconda casa può vivere a Venezia”. Saranno le storie dei protagonisti che hanno fatto della locazione turistica il loro strumento per aggirare regolamentazioni e utilizzare le abitazioni della nostra città per smisurati profitti, mettendo in crisi la tenuta sociale e comunitaria di interi quartieri.

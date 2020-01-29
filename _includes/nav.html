@@ -6,12 +6,16 @@
 
 <div id="menu-items" style=" display: inline-block; float:right; margin-top: 25px">
 
-  <div class="dropdown">
-  <a class="dropbtn {% if page.slug == 'monitoraggio' %} current {% endif %}" href="/pagine/monitoraggio">Monitoraggio</a>
-  </div>
 
+
+  <div class="dropdown">
+  <a class="dropbtn {% if page.tema == 'erp' %} current {% endif %}" href="/pagine/erp">ERP</a>
+  </div>
     <div class="dropdown">
-  <a class="dropbtn {% if page.slug == 'pubblicazioni' %} current {% endif %}" href="/pagine/pubblicazioni">Pubblicazioni</a>
+    <a class="dropbtn {% if page.tema == 'ers' %} current {% endif %}" href="/pagine/ers">Edilizia Convenzionata</a>
+  </div>
+  <div class="dropdown">
+    <a class="dropbtn {% if page.tema == 'locazioni' %} current {% endif %}" href="/pagine/locazioni">Locazioni Turistiche</a>
   </div>
 
 

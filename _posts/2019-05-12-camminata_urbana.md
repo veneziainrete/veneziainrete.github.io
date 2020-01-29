@@ -4,12 +4,12 @@ title: 'Politiche per la residenza. Ghe vol un OCIO novo'
 data: 2019-05-12
 autore: 'Mario Santi'
 link-autore: "https://it.linkedin.com/in/mario-santi-05346928"
-tags: ['affittanze turistiche' , 'edilizia convenzionata', 'edilizia residenziale pubblica']
+tags: ['locazioni', 'ers', 'erp' ]
 header-image: "/img/cura1.jpg"
 foto-titolo: "Foto dell'evento per gentile concessione del fotografo "
 autore-foto: "Philippe Apatie"
 autore-foto-link : "https://www.facebook.com/philippe.apatie"
-categories: 'incontri'
+categories: ['C.U.R.A', 'locazioni turistiche', 'edilizia convenzionata','ERP']
 excerpt_separator: <!--more-->
 
 ---

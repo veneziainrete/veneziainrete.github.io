@@ -113,12 +113,16 @@
 
 <div id="menu-items" style=" display: inline-block; float:right; margin-top: 25px">
 
-  <div class="dropdown">
-  <a class="dropbtn " href="/pagine/monitoraggio">Monitoraggio</a>
-  </div>
 
+
+  <div class="dropdown">
+  <a class="dropbtn " href="/pagine/erp">ERP</a>
+  </div>
     <div class="dropdown">
-  <a class="dropbtn " href="/pagine/pubblicazioni">Pubblicazioni</a>
+    <a class="dropbtn " href="/pagine/ers">Edilizia Convenzionata</a>
+  </div>
+  <div class="dropdown">
+    <a class="dropbtn " href="/pagine/locazioni">Locazioni Turistiche</a>
   </div>
 
 
@@ -152,8 +156,8 @@
   <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src=/img/monitoraggio-affittanze-header.png><p style="font-size: 0.7em; text-align: center; margin-top: 0px;"> <a href=""></a></div>
     <main>	
       <h1 style="text-align:center; margin-bottom: 20px; ">Gli squilibri del turismo veneziano</h1>
-      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> 05/12/2019</p>
-      <div class="content"><b>Bollettino mensile</b> con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione. Scopri. attraverso grafici e mappe interattive. le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico.<p style="font-size: 0.8em"><em>Dati aggiornati al: 2019-12-05</em></p></div>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> 13/01/2020</p>
+      <div class="content"><b>Bollettino mensile</b> con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione. Scopri. attraverso grafici e mappe interattive. le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico.<p style="font-size: 0.8em"><em>Dati aggiornati al: 2020-01-13</em></p></div>
       <div class="switch-field">
         <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
         <label for="radio-three">Venezia Sestieri + Giudecca e Sacca Fisola</label>
@@ -166,9 +170,9 @@
     </div>
 <div class="counter">
 		<div class="column3" style="border-right: 2px solid black">
-      <p><span class="number" id="popolazione">52.236</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">20</b><b>%</b> sul totale del Comune)</span></p></div>
-	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">47.849</span><br><span class= "number-descr"> posti letto in totale<br>(<b id="letti-tot-share">63</b><b>%</b> sul totale del Comune)</span></p></div>
-	<div class="column3"><p><span class="number" id="letti-loc">20.613</span><br><span class= "number-descr"> posti letto in locazioni turistiche<br>(<b id="letti-loc-share">76</b><b>%</b> sul totale del Comune)</span></p></div>
+      <p><span class="number" id="popolazione">52.167</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">20</b><b>%</b> sul totale del Comune)</span></p></div>
+	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">49.069</span><br><span class= "number-descr"> posti letto in totale<br>(<b id="letti-tot-share">63</b><b>%</b> sul totale del Comune)</span></p></div>
+	<div class="column3"><p><span class="number" id="letti-loc">21.156</span><br><span class= "number-descr"> posti letto in locazioni turistiche<br>(<b id="letti-loc-share">76</b><b>%</b> sul totale del Comune)</span></p></div>
 <div class="clear"></div>
 </div>
 
@@ -217,17 +221,17 @@
 
 function centro() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "52.236";
+  pop.innerHTML = "52.167";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "20";
 
   var lettiTot = document.getElementById("letti-tot");
-  lettiTot.innerHTML = "47.849";
+  lettiTot.innerHTML = "49.069";
   var lettiTotShare = document.getElementById("letti-tot-share");
   lettiTotShare.innerHTML = "63";
   
   var lettiLoc = document.getElementById("letti-loc");
-  lettiLoc.innerHTML = "20.613";
+  lettiLoc.innerHTML = "21.156";
   var lettiLocShare = document.getElementById("letti-loc-share");
   lettiLocShare.innerHTML = "76";
   
@@ -235,51 +239,51 @@ function centro() {
 
 function acqua() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "79.843";
+  pop.innerHTML = "79.746";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "31";
 
   var lettiTot = document.getElementById("letti-tot");
-  lettiTot.innerHTML = "53.324";
+  lettiTot.innerHTML = "54.536";
   var lettiTotShare = document.getElementById("letti-tot-share");
   lettiTotShare.innerHTML = "70";
   
   var lettiLoc = document.getElementById("letti-loc");
-  lettiLoc.innerHTML = "22.419";
+  lettiLoc.innerHTML = "22.954";
   var lettiLocShare = document.getElementById("letti-loc-share");
-  lettiLocShare.innerHTML = "83";
+  lettiLocShare.innerHTML = "82";
 }
 
 function terra() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "178.886";
+  pop.innerHTML = "178.609";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "69";
 
   var lettiTot = document.getElementById("letti-tot");
-  lettiTot.innerHTML = "22.949";
+  lettiTot.innerHTML = "23.139";
   var lettiTotShare = document.getElementById("letti-tot-share");
   lettiTotShare.innerHTML = "30";
   
   var lettiLoc = document.getElementById("letti-loc");
-  lettiLoc.innerHTML = "4.704";
+  lettiLoc.innerHTML = "4.907";
   var lettiLocShare = document.getElementById("letti-loc-share");
-  lettiLocShare.innerHTML = "17";
+  lettiLocShare.innerHTML = "18";
 }
 
 function tutto() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "258.729";
+  pop.innerHTML = "258.355";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "100";
 
   var lettiTot = document.getElementById("letti-tot");
-  lettiTot.innerHTML = "76.273";
+  lettiTot.innerHTML = "77.675";
   var lettiTotShare = document.getElementById("letti-tot-share");
   lettiTotShare.innerHTML = "100";
   
   var lettiLoc = document.getElementById("letti-loc");
-  lettiLoc.innerHTML = "27.123";
+  lettiLoc.innerHTML = "27.861";
   var lettiLocShare = document.getElementById("letti-loc-share");
   lettiLocShare.innerHTML = "100";
 }

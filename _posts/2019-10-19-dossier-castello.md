@@ -6,9 +6,10 @@ autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"
 header-image: "/img/cura-castello.jpg"
 foto-titolo: "Foto dell'evento per gentile concessione del fotografo "
+tags: ['locazioni', 'ers', 'erp' ]
 autore-foto: "Philippe Apatie"
 autore-foto-link : "https://www.facebook.com/philippe.apatie"
-categories: 'dossier'
+categories: ['dossier', 'locazioni turistiche', 'edilizia convenzionata','ERP']
 excerpt_separator: <!--more-->
 
 ---

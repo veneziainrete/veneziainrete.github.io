@@ -4,8 +4,9 @@ title: 'ANALISI: Tutti in fila per un diritto'
 data: 2019-08-27
 autore: 'Patrizia Venclani'
 link-autore: ""
+tags: ['erp' ]
 header-image: "/img/legge-erp-header.png"
-categories: 'articoli'
+categories: ['analisi','ERP']
 excerpt_separator: <!--more-->
 
 ---

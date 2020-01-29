@@ -4,12 +4,12 @@ title: 'OCIO che rivemo!'
 data: 2019-06-07
 autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"
-tags: ['patrimonio comunale' , 'abitazioni', 'edilizia residenziale pubblica']
+tags: ['locazioni', 'ers', 'erp' ]
 header-image: "/img/ocio-rivemo.jpg"
 foto-titolo: "Foto dell'evento per gentile concessione del fotografo "
 autore-foto: "VeneziaMioFuturo VeniceMyFuture"
 autore-foto-link: "https://www.facebook.com/veneziamiofuturo"
-categories: 'incontri'
+categories: ['incontri', 'locazioni turistiche', 'edilizia convenzionata','ERP']
 excerpt_separator: <!--more-->
 
 ---

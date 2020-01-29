@@ -4,8 +4,9 @@ title: 'DOSSIER: La Giudecca nel contesto veneziano'
 data: 2019-05-12
 autore: 'OCIO'
 link-autore: "https://ocio-venezia.it"
-header-image: "/img/cura1.jpg"
-categories: 'dossier'
+header-image: "/img/dossier1-header.png"
+tags: ['locazioni', 'ers', 'erp' ]
+categories: ['dossier', 'locazioni turistiche', 'edilizia convenzionata','ERP']
 excerpt_separator: <!--more-->
 
 ---
