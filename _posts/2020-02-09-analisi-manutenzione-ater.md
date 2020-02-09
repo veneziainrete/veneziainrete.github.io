@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 Negli ultimi anni quanti interventi di manutenzione straordinaria e recupero ha realizzato Ater nella Città Storica di Venezia?
 Abbiamo cercato di rispondere a questo interrogativo andando ad analizzare le fonti ufficiali, reperibili nel sito dell’Azienda alla sezione “Amministrazione trasparente”: i bilanci di previsione 2011–2019 e i bilanci consuntivi 2011–2018.<!--more-->
 
-## Clicca sull'immagine sottostante per leggere l'articolo intero.
+## ARTICOLO DI SINTESI: Clicca sull'immagine sottostante per leggere l'articolo di sintesi
 
 <blockquote class="embedly-card">
 <h4>
@@ -23,4 +23,8 @@ Abbiamo cercato di rispondere a questo interrogativo andando ad analizzare le fo
 Abbiamo cercato di rispondere a questo interrogativo andando ad analizzare le fonti ufficiali, reperibili nel sito dell’Azienda alla sezione “Amministrazione trasparente”: i bilanci di previsione 2011–2019 e i bilanci consuntivi 2011–2018. </p>
 </blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+## ANALISI DETTAGLIATA: Clicca [questo link](/files/2020-02-06_analisi-manutenzioni-ater.pdf) per scaricare e il rapporto intero
+
+<iframe src="/files/2020-02-06_analisi-manutenzioni-ater.pdf" width="960" height="700" style="width:100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
