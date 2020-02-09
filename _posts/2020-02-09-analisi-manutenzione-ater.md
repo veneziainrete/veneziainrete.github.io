@@ -24,7 +24,7 @@ Abbiamo cercato di rispondere a questo interrogativo andando ad analizzare le fo
 </blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-## ANALISI DETTAGLIATA: Clicca [questo link](/files/2020-02-06_analisi-manutenzioni-ater.pdf) per scaricare e il rapporto intero
+## ANALISI DETTAGLIATA: Clicca [questo link](/files/2020-02-06_analisi-manutenzioni-ater.pdf) per scaricare il rapporto intero
 
 <iframe src="/files/2020-02-06_analisi-manutenzioni-ater.pdf" width="960" height="700" style="width:100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
