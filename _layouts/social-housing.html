@@ -8,34 +8,58 @@
     <main>	
       <h1 style="text-align:center; margin-bottom: 20px; ">{{ page.title}}</h1>
       <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> {{page.dati-data | date: "%d/%m/%Y"}}</p>
-      <div class="content">{{page.excerpt}}<p style="font-size: 0.8em"><em>Dati aggiornati al: {{page.dati-data}}</em></p>
-        <p><b style="font-size: 1.5em">ATTENZIONE: I dati contenuti in questa pagina sono in corso di aggiornamento e verifica: vi preghiamo tornare su questa pagina nei prossimi giorni e di non citarli per il momento, in quanto potrebbero non essere accurati.</b><br>I dati di questa pagina monitorano esclusivamente i progetti riferiti a <b>Venezia città d'acqua</b> (Sestieri, Giudecca e Sacca Fisola, Murano e Burano).</p></div>
-<div class="counter fullwidth-body">
+      <div class="content">      
+        <p>Cosa intendiamo con edilizia convenzionata? Indichiamo in questo modo tutti i progetti di edificazione ex novo o restauro/ristrutturazione di patrimonio edilizio mediante partenariato pubblico/privato finalizzati alla vendita o alla locazione di alloggi a residenti ad un prezzo calmierato.</p><p>La realizzazione delle abitazioni viene, solitamente, finanziata con la cessione da parte dell’Amministrazione comunale di diritti di edificazione, agevolazioni urbanistiche, alle ditte esecutrici o alle società che gestiscono le proprietà. 
+</p>
+<p>Nel Comune di Venezia l’edilizia “convenzionata” ha visto un laboratorio di sperimentazione già à metà degli anni ‘90: le amministrazioni che governano la città provano a far partire alcuni progetti per agevolare l’acquisto o la locazione di alloggi da parte di nuclei familiari della cosiddetta “classe media”, con un reddito troppo alto per accedere ai bandi di edilizia residenziale pubblica (ERP - vedi) ma troppo basso per poter accedere agli alloggi in vendita o in locazione nel mercato libero.</p>
+
+<p>Nonostante queste premesse, solo una minima parte degli alloggi di edilizia convenzionata si è mai tradotto in realtà. In molti casi, alle dichiarazioni mezzo stampa non è mai seguita una pianificazione concreta. In altri, anche quando il progetto è stato finanziato con soldi pubblici e/o concessioni, gli alloggi a prezzi calmierati sono stati gradualmente ridotti o sono scomparsi del tutto dal progetto realizzato. </p>
+<p>Come Osservatorio civico, abbiamo ritenuto indispensabile tenere i riflettori accessi su queste dinamiche, soprattutto per alimentare una cultura di trasparenza e monitoraggio civico costante, che faccia pressione ai nostri amministratori affinchè tengano fede alle promesse - o almeno siano scoraggiati dal fare dichiarazioni poco concrete. Per questo motivo, in questa pagina abbiamo avviato una raccolta e presentazione dei dati sui progetti di edilizia convenzionata annunciati e realizzati dal 2000 ad oggi. Troverai schede sulla storia dei singoli progetti, come anche visualizzazioni dati riassuntive. Si tratta di un progetto di monitoraggio che non ha la pretesa di essere completo e definitivo, quanto uno stimolo di riflessione e un invito ad aiutarci nel tenere gli occhi aperti.</p>
+
+<div style="background-color: #e0e3f0; padding: 1em;"><h1 style="color: #74140C; font-size: 1.1em; font-weight: 700">✼ Come aiutarci</h1>
+<p>Trattandosi spesso di progetti annunciati e mai realizzati, in alcuni casi manca qualsiasi documento pubblico sul progetto ed è quindi difficile ricostruire i numeri completi di tutti i casi. Questo vuol dire che:</p><ul><li>le cifre che trovi qui sotto sono solo indicative e approssimate, servono per rendere l'idea del fallimento dell'edilizia convenzionata fino ad oggi, più che ad essere citate come cifre definitive;</li><li>puoi utilizzare il form in fondo alla pagina (o scriverci una <a href="mailto:mail.veneziainrete@gmail.com">mail</a>, se preferisci) per aiutarci ad aggiungere tasselli al nostro monitoraggio. Chiediamo solo che ogni informazione sia corroborata da una fonte.</li></ul>
+</div>
+<h2>I numeri dell'edilizia convenzionata / social housing a Venezia 2000 - 2019</h2>
+<p>Numerose dichiarazioni negli anni annunciano “convenzioni” miracolose che potranno dare case a migliaia di nucleo familiari veneziani. Ricordiamone alcune:</p>
+<ul>
+<li><b>2000-2005</b> la giunta Costa annuncia 1400 nuovi alloggi</li>
+<li><b>2010-2014</b> la giunta Orsoni annuncia 5000 nuovi alloggi</li>
+<li><b>2013</b> l’Ater annuncia 7500 nuovi alloggi in housing sociale</li>
+<li><b>2015</b> l’attuale sindaco Brugnaro parla di 30.000 nuovi residenti grazie alle nuove politiche sulla casa</li></ul>
+<p>Ignorando queste dichiarazioni prive di concretezza, abbiamo individuato 13 progetti specifici, relativi alla <b>sola Venezia insulare</b> che negli ultimi 20 anni sono apparsi a più riprese tra gli annunci delle varie Giunte che si sono susseguite. Anche solo focalizzandoci su queste promesse vagamente meno astratti delle precedenti dichiarazioni miracolose, i numeri raccontano da sè il fallimento di tali tentativi.</p>
+<h3><b>Edilizia convenzionata a Venezia 2000 - 2020: il divario tra promesse e realizzazioni</b></h3> 
+<div class="counter fullwidth-body" style="margin-bottom: 50px;">
 		<div class="column3" style="border-right: 2px solid black">
-      <p><span class="number" >{{page.assegnati}}</span><br><span class= "number-descr"> alloggi assegnati<br>(<b>{{page.annunciati}}</b> annunciati)</span></p></div>
+      <p><span class="number" >{{page.assegnati}}</span><br><span class= "number-descr"> alloggi assegnati<br>(<b>{{page.assegnati-share}}%</b> sul totale annunciati)</span></p></div>
 	<div class="column3" style="border-right: 2px solid black"><p><span class="number">{{page.assenti}}</span><br><span class= "number-descr"> alloggi annunciati e mai realizzati<br>(<b>{{page.assenti-share}}</b><b>%</b> sul totale annunciati)</span></p></div>
-	<div class="column3"><p><span class="number">{{page.contributi}}</span><br><span class= "number-descr"> finanziamenti pubblici<br>(<b id="letti-loc-share">{{page.contributi-alloggio}}</b> per alloggio assegnato)</span></p></div>
+	<div class="column3"><p><span class="number">{{page.contributi}}</span><br><span class= "number-descr"> finanziamenti pubblici stimati<br>scopri sotto come aiutarci nel monitoraggio</span></p>
+  </div>
 <div class="clear"></div>
+<p style="font-size: 0.8em; font-style: italic;text-align: center;">I dati di questa pagina monitorano esclusivamente i progetti riferiti a <b>Venezia insulare</b> (Sestieri, Giudecca e Sacca Fisola, Murano e Burano). Dati aggiornati al: {{page.dati-data}}</p>
 </div>
+<iframe title="Progetti di Edilizia Convenzionata annunciati " aria-label="Table" id="datawrapper-chart-904eK" src="//datawrapper.dwcdn.net/904eK/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="692"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+<p>La precedente tabella già da sè è indicativa del divario tra quanto promesso e quanto realizzato: <b>in 20 anni, dei 13 progetti monitorati, solo in 3 casi il progetto è giunto all'effettiva assegnazione di alloggi a prezzi calmierati e in un caso (la Caserma Manin) dal progetto realizzato sono spariti tutti gli alloggi previsti dalla convenzione stipulata</b>. Anche nei 3 casi in cui gli alloggi sono stati consegnati, non si può sempre parlare davvero di successo. Per esempio, per l'area Junghans, ci sono voluti 18 anni e €11,6 milioni di contributi pubblici per passare dall'annuncio del concorso alla consegna delle case. Nella convenzione iniziale inoltre erano previsti 137 appartamenti in vendita e 37 in locazione a prezzi convenzionati. Dei primi, solo 80 sono stati effettivamente venduti al prezzo concordato. Quelli in locazione sono invece scoparsi del tutto.</p>
 
-  
-<iframe title="Tra il 2005 e il 2019: 1.267 alloggi ERS annunciati, solo 226 assegnati." aria-label="Interactive line chart" id="datawrapper-chart-ucOEO" src="//datawrapper.dwcdn.net/ucOEO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+<iframe title="Promesse e realt&agrave; dell'edilizia convenzionata veneziana 2000  - 2019" aria-label="Bullet Bars" id="datawrapper-chart-BR0bZ" src="//datawrapper.dwcdn.net/BR0bZ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="991"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
 
-<div class="content"><p>Da cambiare testo--> La seguente mappa mostra la concentrazione di posti letto in confronto alla popolazione residente in ciascun isolato. Più un isolato è colorato di rosso scuro, maggiore è la sproporzione di posti letto in rapporto ai residenti. Considera che anche gli isolati di colore bianco e un verdino chiaro, per quanto qui il rapporto non sia così sbilanciato a favore del turismo, sono comunque da considerarsi luoghi ad alta pressione, essendoci solo un piccolo margine di residenti in più rispetto alla capacità ricettiva.<br><br>
-<em style="font-size: 0.8em">Esempio: un isolato con 100% più posti letto che residenti vuol dire che i posti letto disponibili sono il doppio della popolazione; un isolato con 200% più posti letto che residenti vuol dire che i posti letto sono il 3 volte il numero dei residenti.</em></p></div>
+<p>Attraverso la seguente mappa puoi approfondire la storia di ciascuno dei progetti oggetto del nostro monitoraggio.</p>
 
-<div class="fullwidth-body">
-<iframe src="https://uploads.knightlab.com/storymapjs/c56cf2d6c4a6df78823e578ce7790e79/progetti-di-edilizia-convenzionata-a-venezia-2005-2019/index.html" frameborder="0" width="100%" height="800"></iframe>
-</div>
+<div class="fullwidth-body" style="margin-bottom: 30px">
+<iframe src="/viz/social-housing/" frameborder="0" width="100%" height="600"></iframe></div>
 
-<div class="content"><h2>Fonti</h2>
-  <p>da aggiornare</p>
-<ul style="padding-left:15px">
-  <li><b>Strutture turistiche</b>: <a href="http://geoportale.comune.venezia.it/Html5Viewer/index.html?viewer=IDS.IDS&LOCALE=IT-it">Portale GeoIDS</a></li>
-  <li><b>Popolazione</b>: <a href="https://portale.comune.venezia.it/millefoglie/statistiche/home">Stime giornaliere Anagrafe Comune di Venezia</a></li>
-  <li><b>Basi dati geografici</b>: <a href="http://dati.venezia.it/?q=content/cartografia-di-base">Open Data Venezia, Cartografia di base</a></li>
-<li><b>Corrispondenze tra isolato -> località -> quartiere -> municipalità -> gruppo</b>: <a href="http://geotributi.comune.venezia.it/">Portale GeoTributi</a></li>
+<div style="background-color: #e0e3f0; padding: 1em;"><h1 style="color: #74140C; font-size: 1.1em; font-weight: 700">✼ Normativa di riferimento</h1>
+  L’edilizia residenziale sociale, nota come social housing, è regolamentata, in Italia, dal DL 25 giugno 2008, n. 112, noto come “Piano Casa” con sui si tentava di rispondere all’emergenza abitativa accentuata dalla crisi economica del 2008 e, nello specifico,  a quella cosiddetta “zona grigia” composta soprattutto da nuclei familiari a basso reddito, anche mono-parentali o mono-reddito.
+<ul>
+  <li><b>D.L. 25 giugno 2008 art. 11 – Piano Casa</b><br>Prevede l’utilizzo di fondi immobiliari chiusi come strumento attuativo del Piano.
+Individua le categorie sociali svantaggiate cui è destinata l’offerta di alloggi sociali</li>
+<li><b>D.M. 22 aprile 2008 – Definizione di Alloggio Sociale</b><br>Sono alloggi sociali le case e i servizi destinati a individui e nuclei familiari svantaggiati che non sono in grado di accedere ad alloggi nel libero mercato. Rientrano in tale definizione gli alloggi realizzati o recuperati da operatori pubblici e privati, anche con il ricorso ad agevolazioni e contributi pubblici, destinati alla locazione temporanea per almeno otto anni ai canoni concordati e anche alla proprietà a prezzi convenzionati (ambito dell’edilizia privata sociale).</li>
 </ul></div>
+
+<h2>Form per contribuire al monitoraggio</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_6qyneOb0P_dvplnrp3lI7wYnJI-9WTsfhyYPvnarHsFl8A/viewform?embedded=true" width="700" height="700" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
+</div>
 
 </main>
 {% include footer.html %}

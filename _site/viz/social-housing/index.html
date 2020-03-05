@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Edilizia convenzionata a Venezia</title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style/main.css">
+   
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="dati.js"></script>
+   </head>
+
+   <body>
+      <div class="sidebar">
+        <div class="home"><h1>I progetti di Edilizia Convenzionata a Venezia</h1><p>Clicca sui punti della mappa per scoprire numeri e storie di ciascuno dei 13 progetti che stiamo monitorando.</p></div>
+        <p id="sidebar-text"></p>
+            <div class="img-wrap" >
+                 <img class="immagine"src="">
+                  <p class="foto-fonte"></p>
+              </div>
+          <h1 class="nome"></h1>
+          <p class="luogo"></p>
+          <div class="dati-base">
+
+            <p><span class="anno-annuncio"></span><br>
+            <span class="anno-consegna"></span></p>
+             <p><span class="previsti"></span><br>
+             <span class="assegnati"></span></p>
+             <p><span class="contributi"></span><br>
+              <span class="attuatore"></span></p>
+          <div class="clear"></div>
+        </div>
+          
+          <div class="contenuto"></div>
+          <div class="fonti"></div>
+
+
+</div>
+<div id="map" class="map"></div>
+   </body>
+   
+   <script type="text/javascript">
+   
+/** ---------------
+Map configuration
+---------------- */
+
+var map = L.map('map', {
+  center: [45.4386567,12.3355089],
+  zoom: 13
+});
+
+var Stamen_TonerLite = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>', subdomains: 'abcd', maxZoom: 19}).addTo(map);
+
+
+var generateStyleObject = function(feature) {
+  if (feature.properties.stato === "consegnato") {
+    return { fillColor: "#C83737", fillOpacity:0.6, weight:0}
+  } else {
+    return { fillColor: "#000", fillOpacity:0.6, weight:0 }
+  }
+};
+
+
+
+L.geoJSON(dati, {
+  onEachFeature: onEachFeature,
+  pointToLayer: function (feature, latlng) {
+      var style = generateStyleObject(feature) ;
+      var popupText = feature.properties.name
+      return L.circleMarker(latlng, style).bindPopup(popupText, {permanent: true, opacity: 0.7}).openTooltip();}
+}).addTo(map);
+
+function onEachFeature(feature, layer) {
+  layer.on('click', function(e) {
+    $(".home").hide();
+    $(".immagine").attr("src",feature.properties.foto);
+    $(".foto-fonte").html("<b>Fonte foto: </b><a href='"+feature.properties.fontelink+"'>"+feature.properties.fontefoto+"</a>");
+    $(".nome").html(feature.properties.name);
+    $(".luogo").html(feature.properties.luogo);
+    $(".anno-annuncio").html("<b>Anno annuncio: </b>"+feature.properties.anno1);
+    $(".anno-consegna").html("<b>Anno consegna: </b>"+feature.properties.anno2);
+    $(".previsti").html("<b>Alloggi previsti: </b>"+feature.properties.previsti);
+    $(".assegnati").html("<b>Alloggi consegnati: </b>"+feature.properties.assegnati);
+    $(".contributi").html("<b>Contributi pubblici: </b>"+feature.properties.contributi);
+    $(".attuatore").html("<b>Soggetto attuatore: </b>"+feature.properties.attuatore);
+    $(".contenuto").html(feature.properties.content);
+    $(".fonti").html("<h3>Fonti</h3><ul><li><b>Annuncio:</b> <a href='"+feature.properties.fonteannuncio+"'>"+feature.properties.fonteannuncionome+"</a></li><li><b>Assegnazione:</b> <a href='"+feature.properties.fonteassegnati+"'>"+feature.properties.fonteassegnatinome+"</a></li><li><b>Contributi pubblici:</b> <a href='"+feature.properties.fontecontributi+"'>"+feature.properties.fontecontributinome+"</a></li></ul>");
+
+  });
+}
+   </script>
+</html>
