@@ -17,3 +17,5 @@ paginate: 4
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+exclude: [vendor]
