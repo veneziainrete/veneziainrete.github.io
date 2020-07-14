@@ -28,6 +28,14 @@ Nel corso delle prossime settimane pubblicheremo queste piccole inchieste che, n
           <a href="https://medium.com/ocio-venezia/castello-e-corte-delle-colonne-quellindotto-veneziano-che-prende-il-volo-per-l-atlantico-847b50c7e3f0" target="_blank">Castello e Corte delle Colonne: quell'indotto che...prende il volo per l'Atlantico.</a>
           </h1> 
         </div>
+
+<div class="inchiesta-card">
+     	 <img src="/img/inchiesta-san-zan-degola-full.png" class="header-img-blog centered">
+          <h1 class="inchiesta-title">
+          <a href="https://medium.com/ocio-venezia/campo-san-zan-degol%C3%A0-a-santa-croce-venezia-un-luogo-dimenticato-dalla-calca-ma-non-dagli-5ad3c73fbb49" target="_blank">Campo San Zan Degolà a Santa Croce (Venezia): un luogo dimenticato dalla calca… ma non dagli speculatori</a>
+          </h1> 
+        </div>
+
       </div>  
 
 ## **Vuoi segnalarci qualcosa?**
