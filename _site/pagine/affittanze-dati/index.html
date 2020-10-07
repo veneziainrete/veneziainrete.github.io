@@ -17,18 +17,18 @@
   <meta name="twitter:title" content="Gli squilibri del turismo veneziano" />
   <meta name="twitter:description" content="Bollettino mensile con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione..." />
   
-  <meta name="twitter:image" content="http://ocio-venezia.it/img/monitoraggio-affittanze-header.png" />
+  <meta name="twitter:image" content="http://localhost:4000/img/monitoraggio-affittanze-header.png" />
 
 
 
 <!-- Open Graph -->
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://ocio-venezia.it/pagine/affittanze-dati/" />
+  <meta property="og:url" content="http://localhost:4000/pagine/affittanze-dati/" />
   <meta property="og:title" content="Gli squilibri del turismo veneziano" />
   <meta property="og:description" content="Bollettino mensile con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione..." />
   
-  <meta property="og:image" content="http://ocio-venezia.it/img/monitoraggio-affittanze-header.png" />
+  <meta property="og:image" content="http://localhost:4000/img/monitoraggio-affittanze-header.png" />
   
   
 
@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     
 <!--- RSS -->
-<link type="application/atom+xml" rel="alternate" href="http://ocio-venezia.it/feed.xml" title="OCIO" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="OCIO" />
 </head>
 
 <nav>
@@ -156,8 +156,8 @@
   <div class="fullwidth" style="padding-top: 0"><img style="padding: 0;" src=/img/monitoraggio-affittanze-header.png><p style="font-size: 0.7em; text-align: center; margin-top: 0px;"> <a href=""></a></div>
     <main>	
       <h1 style="text-align:center; margin-bottom: 20px; ">Gli squilibri del turismo veneziano</h1>
-      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> 13/07/2020</p>
-      <div class="content"><b>Bollettino mensile</b> con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione. Scopri. attraverso grafici e mappe interattive. le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico.<p style="font-size: 0.8em"><em>Dati aggiornati al: 2020-07-13</em></p></div>
+      <p class="post-details" style="text-align:center; padding-bottom: 2em; font-size: inherit;"><i class="far fa-calendar" style="padding-right: 10px;"></i> 24/06/2020</p>
+      <div class="content"><b>Bollettino mensile</b> con i dati aggiornati sul settore ricettivo alberghiero ed extra-alberghiero. confrontati con quelli sulla popolazione. Scopri. attraverso grafici e mappe interattive. le dinamiche di squilibrio che sottraggono abitazioni residenziali in favore del settore turistico.<p style="font-size: 0.8em"><em>Dati aggiornati al: 2020-06-24</em></p></div>
       <div class="switch-field">
         <input type="radio" id="radio-three" name="switch-two" value="centro" checked onclick="centro()"/>
         <label for="radio-three">Città Antica</label>
@@ -170,7 +170,7 @@
     </div>
 <div class="counter">
 		<div class="column3" style="border-right: 2px solid black">
-      <p><span class="number" id="popolazione">51.600</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">20</b><b>%</b> sul totale del Comune)</span></p></div>
+      <p><span class="number" id="popolazione">51.550</span><br><span class= "number-descr"> residenti<br>(<b id="pop-share">20</b><b>%</b> sul totale del Comune)</span></p></div>
 	<div class="column3" style="border-right: 2px solid black"><p><span class="number" id="letti-tot">49.387</span><br><span class= "number-descr"> posti letto in totale<br>(<b id="letti-tot-share">64</b><b>%</b> sul totale del Comune)</span></p></div>
 	<div class="column3"><p><span class="number" id="letti-loc">21.570</span><br><span class= "number-descr"> posti letto in locazioni turistiche<br>(<b id="letti-loc-share">77</b><b>%</b> sul totale del Comune)</span></p></div>
 <div class="clear"></div>
@@ -222,7 +222,7 @@
 
 function centro() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "51.600";
+  pop.innerHTML = "51.550";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "20";
 
@@ -240,7 +240,7 @@ function centro() {
 
 function acqua() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "78.964";
+  pop.innerHTML = "78.881";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "31";
 
@@ -257,7 +257,7 @@ function acqua() {
 
 function terra() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "177.788";
+  pop.innerHTML = "177.620";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "69";
 
@@ -274,7 +274,7 @@ function terra() {
 
 function tutto() {
   var pop = document.getElementById("popolazione");
-  pop.innerHTML = "256.752";
+  pop.innerHTML = "256.501";
   var popShare = document.getElementById("pop-share");
   popShare.innerHTML = "100";
 
