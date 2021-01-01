@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 *L'osservatorio civico OCIO ha deciso di recuperare e pubblicare tutti i fascicoli dell’Osservatorio casa comunale, informatizzando quelli cartacei, per permettere di ricostruire la memoria storica dell’evolversi della condizione abitativa e delle politiche residenziali a Venezia, ma anche per ribadire che conoscenza e trasparenza sono elementi fondanti di scelte di politiche abitative consapevoli e valutabili.*
 
-*In questo articolo trovi una presentazione di ciò che ha rappresentario l'Osservatorio casa comunale e, a fine pagina, i link ai PDF dei fascicoli di tutti i suoi numeri dal 1995 al 2014, da leggere, studiare e scaricare. Buona lettura!*
+*In questo articolo trovi una presentazione di ciò che ha rappresentario l'Osservatorio casa comunale e, a fine pagina, i link ai PDF dei fascicoli di tutti i suoi numeri dal 1995 al 2014, da scaricare, leggere e studiare. Buona lettura!*
 
 <!--more-->
  
@@ -36,18 +36,20 @@ L’Osservatorio casa deve, in sintesi, mettere a disposizione, in primis del Co
 > 
 > L’Osservatorio casa può diventare elemento di trasparenza, consentendo di conoscere e valutare i processi decisionali in ambito pubblico su una base di conoscenze messo a disposizione di tutti.
 
-Le prime esperienze di progettazione e costruzione di sistemi informativi per le politiche abitative si sviluppano negli anni ’80 del Novecento all’interno del Dipartimento di Analisi Economica e Sociale del Territorio dell’Istituto Universitario di Architettura di Venezia (IUAV) e vengono sperimentate, attraverso apposite convenzioni, con alcuni Enti locali veneti.
-Queste esperienze, escono dall’ambito universitario attraverso alcuni docenti, ricercatori e studenti che aderiscono all’associazione Urbanistica Democratica, attiva in quegli anni sulle tematiche territoriali, della laguna e della città; l’idea di un Osservatorio casa è dibattuta e condivisa anche dal Comitato Inquilini per il diritto alla casa, organizzazione di massa contro gli sfratti e per il diritto all’abitare a Venezia e, in occasione delle elezioni municipali del 1993, fatta propria da alcune delle forze politiche che sostengono la candidatura a sindaco di Massimo Cacciari, che sarà poi eletto, e inserita nel documento programmatico del candidato sindaco.
+Le prime esperienze di progettazione e costruzione di sistemi informativi per le politiche abitative si sviluppano negli anni ’80 del Novecento all’interno del Dipartimento di Analisi Economica e Sociale del Territorio dell’Istituto Universitario di Architettura di Venezia (IUAV) e vengono sperimentate, attraverso apposite convenzioni, con la Regione Veneto, con lo IACP (oggi Ater) veneziano e con alcuni comuni capoluogo di provincia.
 
-Quattro mesi dopo la sua istituzione, l’Osservatorio casa pubblica il primo fascicolo dal titolo “La casa a Venezia: caratteristiche della domanda e politiche di offerta”.
+Queste esperienze escono dall’ambito universitario attraverso alcuni docenti, ricercatori e studenti che aderiscono all’associazione Urbanistica Democratica, attiva in quegli anni sulle tematiche territoriali, della laguna e della città. 
+
+L’idea di un Osservatorio casa è dibattuta e condivisa anche dal Comitato Inquilini per il diritto alla casa, organizzazione di massa contro gli sfratti e per il diritto all’abitare a Venezia e, in occasione delle elezioni municipali del 1993, fatta propria da alcune delle forze politiche che sostengono la candidatura a sindaco di Massimo Cacciari, che sarà poi eletto, e inserita nel documento programmatico del candidato sindaco.
+Nel febbraio 1995, quattro mesi dopo la sua istituzione, l’Osservatorio casa pubblica il primo fascicolo dal titolo “La casa a Venezia: caratteristiche della domanda e politiche di offerta”.
 
 L’Osservatorio casa si struttura in due sezioni d’analisi:
 
-- i Monitor, che annualmente danno conto dell’andamento del mercato abitativo, analizzano la domanda sociale di abitazioni, in tutte le sue diverse espressioni, le politiche abitative egli strumenti di intervento messi in campo dall’operatore pubblico
-- gli Approfondimenti, che esplorano, attraverso indagini ad hoc, fenomeni importanti ma poco esplorati della più generale “questione abitativa”. Ne ricordiamo alcuni tra i più significativi: il grado di utilizzo del patrimonio residenziale, attraverso l’analisi dei consumi di acqua, luce, gas; il censimento delle abitazioni a piano terra nella città storica, della possibilità di una loro messa in sicurezza e dei relativi costi; il questionario alle famiglie costrette a lasciare Venezia sui motivi dell’abbandono della città storica.
+- i Monitor, che annualmente danno conto dell’andamento del mercato abitativo, analizzano la domanda sociale di abitazioni in tutte le sue diverse espressioni, le politiche abitative e gli strumenti di intervento messi in campo dall’operatore pubblico
+- gli Approfondimenti, che esplorano, attraverso indagini ad hoc, fenomeni importanti ma poco esplorati della più generale “questione abitativa”. Ne ricordiamo alcuni tra i più significativi: il grado di utilizzo del patrimonio residenziale, attraverso l’analisi dei consumi di acqua, luce, gas; il censimento delle abitazioni a piano terra nella città storica, la possibilità di una loro messa in sicurezza e relativi costi; il questionario alle famiglie costrette a lasciare Venezia, sui motivi dell’abbandono della città storica.
 
 Nel corso degli anni, la spinta propulsiva che aveva portato all’attivazione dell’Osservatorio casa viene progressivamente meno, con l’affievolirsi dei movimenti per la casa e con la sempre maggiore marginalità delle politiche della residenza nell’agenda comunale.
-È così che dapprima si eliminano gli Approfondimenti - con l’importante eccezione del fascicolo speciale del 2008 dal titolo “Vivere a Venezia”, che riporta i risultati di due indagini, sulla  mobilità residenziale e sugli spazi sottratti alla residenza da parte delle strutture extralberghiere - poi, dal 2008 cessa la cadenza annuale dei fascicoli dell’Osservatorio casa: il successivo è del 2012; l’ultimo, del 2014.
+È così che dapprima si eliminano gli Approfondimenti, con l’importante eccezione del fascicolo speciale del 2008 dal titolo “Vivere a Venezia”, che riporta i risultati di due indagini, sulla  mobilità residenziale e sugli spazi sottratti alla residenza da parte delle strutture extralberghiere. Dal 2008 cessa anche la cadenza annuale dei fascicoli dell’Osservatorio casa: il successivo è del 2012, l’ultimo  del 2014.
 
 Con l’elezione a sindaco di Luigi Brugnaro, di Osservatorio casa non si parla più. Non solo, ma anche i precedenti fascicoli informatizzati vengono eliminati dal sito del comune e non sono più rintracciabili nemmeno in Internet.
 Questa operazione di occultamento non è casuale: le informazioni ai cittadini sono veicolate esclusivamente da interviste e conferenze stampa di assessori e sindaco, tutte tese a rivendicare i positivi risultati ottenuti dall’amministrazione comunale.
@@ -56,6 +58,7 @@ E i cittadini, che possibilità hanno di valutare le scelte dell’amministrazio
 È per colmare questa lacuna che nel 2019 è nato l’osservatorio civico OCIO, uno strumento analitico e politico per intervenire sui “nodi” principali della questione abitativa a Venezia. Il lavoro di OCIO si focalizza sull’accessibilità e trasparenza delle informazioni e sulla produzione di pubblicazioni indipendenti per monitorare ed eventualmente proporre la revisione di progetti e azioni dedicate alla residenzialità e al diritto alla casa. Vi partecipano cittadini e ricercatori (di professione e non) e vuole rappresentare un luogo materiale e virtuale di confronto, analisi e proposta.
 
 È dentro questo progetto che si colloca la decisione di OCIO di recuperare e pubblicare tutti i fascicoli dell’Osservatorio casa comunale, informatizzando quelli cartacei, per permettere di ricostruire la memoria storica dell’evolversi della condizione abitativa e delle politiche residenziali a Venezia, ma anche per ribadire che conoscenza e trasparenza sono elementi fondanti di scelte di politiche abitative consapevoli e valutabili.
+
 
 # I fascicoli digitalizzati
 
