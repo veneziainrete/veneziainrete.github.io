@@ -35,18 +35,18 @@ Investimenti di chi? Non certo del Comune! Dei circa 30 milioni di euro investit
 
 Nella Venezia insulare il comune in cinque anni ha messo solo le briciole: 800 mila euro su un totale di 16,5 milioni di investimenti: tutto il resto è a carico dei finanziamenti statali (in gran parte erogati dalla Legge Speciale per Venezia) o europei.
 Per la precisione: anche i “... 900.000 euro stanziati nel 2021 per la manutenzione del centro storico” sono fondi di legge Speciale.
-![tabella](/img/tabella_recupero.png)
+![tabella](/img/tabella_recupero.png){:width="100%"}
 
 A questo proposito ci piacerebbe sapere come vengono introitati e spesi gli incassi da canoni abitativi percepiti da Insula per conto del Comune. Ci spieghiamo: tra il 2015 e il 2019 Insula incassa circa 40 milioni di euro dai fitti versati dagli inquilini delle case comunali; nello stesso periodo il Comune investe in manutenzione del proprio patrimonio residenziale 5,7 milioni di euro, con i quali non riesce nemmeno a garantire gli interventi per la riparazione di guasti segnalati dagli inquilini. La domanda è quindi: che fine hanno fatto gli altri 34 milioni di euro? Immaginiamo che una parte serva a coprire le spese sostenute da Insula, ma il resto? Finisce nel calderone delle entrate correnti senza vincolo di destinazione? E’  possibile che la risposta sia assolutamente convincente, ma ci piacerebbe conoscerla.
 
-![tabella](/img/grafico1.png)
+![tabella](/img/grafico1.png){:width="100%"}
 
 ## Venturini 2) Sulle assegnazioni: “Nello scorso quinquennio sono state assegnate 274 case a Venezia e isole e 335 in terraferma.”
 
 Secondo l’assessore, il Comune avrebbe assegnato in cinque anni 609 alloggi. 
 Secondo i dati di Insula, invece, gli alloggi consegnati agli assegnatari sarebbero 366, meno che nel quinquennio precedente (524). Certo, Venturini si riferisce agli anni 2016-2020, i dati di Insula (tratti dall’ultimo bilancio pubblicato) al 2015-2019. La differenza è comunque notevole, a meno che il 2020 non sia stato un anno strabiliante in termini di nuovi contratti di locazione stipulati.
 
-![tabella](/img/grafico2.png)
+![tabella](/img/grafico2.png){:width="100%"}
 
 ## Venturini 3) Case comunali  “In tutto il Comune sono 5447: 2586 in centro storico, di cui 2141 locate. 445 sono in manutenzione o assegnazione e per 136 bisogna trovare i fondi.”
 
